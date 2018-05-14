@@ -44,13 +44,17 @@ footer {
 	height: 100px;
 	background-color: #134660;
 	display: flex;
+	padding: 5px;
+	flex-direction: row;
+	justify-content: flex-end;
 }
 
 footer p {
 	padding-top: 1%;
 	color: #fff;
 	font-size: 10px;
-	display: flex;
+	display: block;
+	margin: 0 auto 0 5px;
 }
 footer img {
 	display: block;
@@ -58,4 +62,5 @@ footer img {
 	width: 40px;
 	margin: auto;
 	padding: 5px;
+	flex: 1;
 	}

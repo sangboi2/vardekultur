@@ -50,16 +50,21 @@ li a {
 
 footer {
 	text-align: center;
-	height: 40px;
+	height: 100px;
 	background-color: #134660;
+	display: flex;
 }
 
 footer p {
 	padding-top: 1%;
 	color: #fff;
 	font-size: 10px;
+	display: flex;
 }
-footer img  {
-    float: right;
-}
-/* footer slut */
+footer img {
+	display: block;
+	height: 40px;
+	width: 40px;
+	margin: auto;
+	padding: 5px;
+	}

@@ -65,7 +65,14 @@ footer p {
 	display: block;
 	margin: 0 auto 0 5px;
 }
+<<<<<<< HEAD
 
+=======
+.spanfooter {
+	display: block;
+	margin: auto;
+}
+>>>>>>> 980d0563c1874cbedf100483b20328ee416e0fb0
 footer img {
 	display: block;
 	height: 40px;

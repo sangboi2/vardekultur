@@ -1,0 +1,45 @@
+@charset "UTF-8";
+/* CSS Document */
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	width: 100%;
+}
+
+nav ul {
+	height: 60px;
+	width: 100%;
+	justify-content: flex-end;
+	display: flex;
+	align-items: center;
+	position: fixed;
+	background-color: #134660;
+}
+
+li {
+	list-style-type: none;
+}
+
+li a {
+    display: block;
+    color: #fff;
+    padding: 24px 24px;
+    text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+}
+
+footer {
+	text-align: center;
+	height: 40px;
+	background-color: #134660;
+}
+
+footer p {
+	padding-top: 1%;
+	color: #fff;
+	font-size: 10px;
+}

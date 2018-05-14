@@ -65,6 +65,10 @@ footer p {
 	display: block;
 	margin: 0 auto 0 5px;
 }
+.spanfooter {
+	display: block;
+	margin: auto;
+}
 footer img {
 	display: block;
 	height: 30px;

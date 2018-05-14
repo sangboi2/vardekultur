@@ -9,6 +9,16 @@ body {
 	width: 100%;
 }
 
+#forside, #events, #om-festivallen, #godt-at-vide {
+height: 1080px;
+width; 100%;
+}
+
+/* basic styling slut*/
+
+
+/* navigation*/
+
 nav ul {
 	height: 60px;
 	width: 100%;
@@ -32,12 +42,11 @@ li a {
 	font-size: 20px;
 }
 
-#forside, #events, #om-festivallen, #godt-at-vide {
-height: 1080px;
-width; 100%;
-}
+/* navigation - slut*/
 
 
+
+/* footer*/
 
 footer {
 	text-align: center;

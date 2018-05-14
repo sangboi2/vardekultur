@@ -32,6 +32,13 @@ li a {
 	font-size: 20px;
 }
 
+#forside, #events, #om-festivallen, #godt-at-vide {
+height: 1080px;
+width; 100%;
+}
+
+
+
 footer {
 	text-align: center;
 	height: 40px;

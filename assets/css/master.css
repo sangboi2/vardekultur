@@ -26,7 +26,7 @@ nav ul {
 	display: flex;
 	align-items: center;
 	position: fixed;
-	background-color: #134660;
+	background-color: #3C5460;
 }
 
 li {
@@ -38,8 +38,8 @@ li a {
     color: #fff;
     padding: 24px 24px;
     text-decoration: none;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 20px;
+		font-family: 'Montserrat', sans-serif;
+		font-size: 20px;
 }
 
 /* navigation - slut*/
@@ -51,7 +51,7 @@ li a {
 footer {
 	text-align: center;
 	height: 100px;
-	background-color: #134660;
+	background-color: #3C5460;
 	display: flex;
 	padding: 5px;
 	flex-direction: row;
@@ -65,10 +65,11 @@ footer p {
 	display: block;
 	margin: 0 auto 0 5px;
 }
+
 footer img {
 	display: block;
-	height: 30px;
-	width: 30px;
+	height: 40px;
+	width: 40px;
 	margin: auto;
 	padding: 5px;
 	flex: 1;

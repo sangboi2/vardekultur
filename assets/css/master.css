@@ -47,11 +47,22 @@ li a {
 
 #events {
 	background-color: blue;
+	font-family: 'augusta', sans-serif;
+	font-size: 25px;
 }
+
+
+#om-festivallen {
+	text-align: center;
+
+}
+
 
 #godt-at-vide {
 	background-color: red;
 }
+
+
 
 
 /* footer*/

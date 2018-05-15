@@ -50,6 +50,7 @@ width; 100%;
 /* navigation - slut*/
 
 
+<<<<<<< HEAD
 
 /* forside - start*/
 
@@ -59,6 +60,23 @@ width; 100%;
 
 .nav-logo {
 	max-width: 100px;
+=======
+#events {
+	background-color: blue;
+	font-family: 'augusta', sans-serif;
+	font-size: 25px;
+}
+
+
+#om-festivallen {
+	text-align: center;
+
+}
+
+
+#godt-at-vide {
+	background-color: red;
+>>>>>>> Jacob
 }
 
 .nav-logo img {
@@ -106,6 +124,8 @@ width; 100%;
 
 }
 /* godt at vide - slut*/
+
+
 
 
 /* footer*/

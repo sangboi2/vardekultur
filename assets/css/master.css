@@ -1,8 +1,8 @@
 @charset "UTF-8";
 /* CSS Document */
-{
-	padding: 0px;
-	margin: 0px;
+* {
+	margin: 0;
+	padding: 0;
 }
 
 body {
@@ -20,25 +20,21 @@ width; 100%;
 
 /* navigation*/
 
-#site-nav {
-	top: 0;
-	position: fixed;
-	width: 100%;
-	background-color: #3C5460;
-}
-
-#site-nav ul {
+nav ul {
 	height: 60px;
+	width: 100%;
 	justify-content: flex-end;
 	display: flex;
 	align-items: center;
+	position: fixed;
+	background-color: #3C5460;
 }
 
-#site-nav li {
+li {
 	list-style-type: none;
 }
 
-#site-nav li a {
+li a {
     display: block;
     color: #fff;
     padding: 25px 25px;
@@ -49,21 +45,9 @@ width; 100%;
 
 /* navigation - slut*/
 
-<<<<<<< HEAD
-/* godt at vide - start*/
-#aboutwrapper {
-	display: flex;
-	flex-direction: column;
-}
 
-.infobox {
-	display: block;
 
-}
-/* godt at vide - slut*/
 
-=======
->>>>>>> 736c34acab8edc90ffb83f25b42f3e000bde5849
 /* footer*/
 
 footer {

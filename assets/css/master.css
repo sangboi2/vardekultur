@@ -44,7 +44,17 @@ li a {
 
 /* navigation - slut*/
 
+/* godt at vide - start*/
+#aboutwrapper {
+	display: flex;
+	flex-direction: column;
+}
 
+.infobox {
+	display: block;
+
+}
+/* godt at vide - slut*/
 
 /* footer*/
 

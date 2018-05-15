@@ -52,20 +52,23 @@ width; 100%;
 
 
 /* forside - start*/
-#forside {
 
+.intro-tekst h2 {
+	font-family: 'augusta', sans-serif;
+	color:
+}
+
+#forside-slider {
+ max-width: 1920px;
+}
+
+.mySlides {
+	display:none;
+	width: 100%;
 }
 
 
 /* forside - slut*/
-
-
-
-
-
-
-
-
 
 
 /* godt at vide - start*/

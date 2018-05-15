@@ -45,3 +45,14 @@ function scrollTo(destination, step)
     }
 
 smoothScroll();
+
+//Button showing info godt at vide
+
+function showInfo() {
+  var show = document.getElementById("info1");
+  if (show.style.display == "block") {
+      show.style.display = "none";
+  } else {
+      show.style.display = "block";
+  }
+}

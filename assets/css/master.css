@@ -69,19 +69,20 @@ width; 100%;
 	width: 75%;
 	display: block;
 	margin: auto;
-	padding: 15px;
+	padding: 20px;
 	border-top: 1px solid #000000;
-	text-align: left;
 	cursor: pointer;
+	text-align: left;
 }
 
 button:focus {
 	outline: 0;
 }
 
-.plus {
-	position: absolute;
-	right: 0;
+#info1 {
+	text-align: left;
+	width: 75%;
+	margin: auto;
 }
 
 /* godt at vide - slut*/

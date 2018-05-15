@@ -44,7 +44,7 @@ width; 100%;
     padding: 25px 25px;
     text-decoration: none;
 		font-family: 'augusta', sans-serif;
-		font-size: 25px;
+		font-size: 30px;
 }
 
 /* navigation - slut*/
@@ -53,12 +53,36 @@ width; 100%;
 
 /* forside - start*/
 
+#forside {
+	text-align: center;
+}
+
+.nav-logo {
+	max-width: 100px;
+}
+
+.nav-logo img {
+	height: 50px;
+	width: 50px;
+}
+
+.intro-tekst {
+}
+
 .intro-tekst h2 {
 	font-family: 'augusta', sans-serif;
-	color:
+	color: #AC683A;
+	font-size: 5em;
+}
+
+.intro-tekst p {
+	font-family: 'Avenir', sans-serif;
+	color: #AC683A;
+	font-size: 1.4em;
 }
 
 #forside-slider {
+ margin-top: 40px;
  max-width: 1920px;
 }
 

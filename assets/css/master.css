@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /* CSS Document */
-* {
+{
 	padding: 0px;
 	margin: 0px;
 }
@@ -44,16 +44,6 @@ li a {
 }
 
 /* navigation - slut*/
-
-
-#events {
-	background-color: blue;
-}
-
-#godt-at-vide {
-	background-color: red;
-}
-
 
 /* footer*/
 

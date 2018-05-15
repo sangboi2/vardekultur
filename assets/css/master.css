@@ -20,21 +20,25 @@ width; 100%;
 
 /* navigation*/
 
-nav ul {
-	height: 60px;
-	width: 100%;
-	justify-content: flex-end;
-	display: flex;
-	align-items: center;
+#site-nav {
+	top: 0;
 	position: fixed;
+	width: 100%;
 	background-color: #3C5460;
 }
 
-li {
+#site-nav ul {
+	height: 60px;
+	justify-content: flex-end;
+	display: flex;
+	align-items: center;
+}
+
+#site-nav li {
 	list-style-type: none;
 }
 
-li a {
+#site-nav li a {
     display: block;
     color: #fff;
     padding: 25px 25px;

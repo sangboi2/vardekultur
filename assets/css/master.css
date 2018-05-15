@@ -7,7 +7,7 @@
 
 body {
 	width: 100%;
-	margin-top: 100px;
+	margin-top: 180px;
 }
 
 #forside, #events, #om-festivallen, #godt-at-vide {
@@ -107,6 +107,7 @@ width; 100%;
 }
 /* godt at vide - slut*/
 
+
 /* footer*/
 
 footer {
@@ -146,3 +147,8 @@ footer img {
 	padding: 5px;
 	flex: 1;
 	}
+
+	#om-festivallen .logo {
+		height: 400px;
+		flex: 1;
+		order: 2;

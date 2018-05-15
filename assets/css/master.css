@@ -7,7 +7,7 @@
 
 body {
 	width: 100%;
-	margin-top: 100px;
+	margin-top: 180px;
 }
 
 #forside, #events, #om-festivallen, #godt-at-vide {
@@ -25,6 +25,7 @@ width; 100%;
 	position: fixed;
 	width: 100%;
 	background-color: #3C5460;
+	height: 80px;
 }
 
 #site-nav ul {
@@ -60,6 +61,7 @@ width; 100%;
 
 }
 /* godt at vide - slut*/
+
 
 /* footer*/
 

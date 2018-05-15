@@ -7,10 +7,7 @@
 
 body {
 	width: 100%;
-<<<<<<< HEAD
-=======
 	margin-top: 180px;
->>>>>>> c6093dbdbc489e674d8b3ab3efa6c2f7a335b642
 }
 
 #forside, #events, #om-festivallen, #godt-at-vide {
@@ -22,10 +19,6 @@ width; 100%;
 
 
 /* navigation*/
-
-<<<<<<< HEAD
-nav ul {
-=======
 #site-nav {
 	top: 0;
 	position: fixed;
@@ -35,7 +28,6 @@ nav ul {
 }
 
 #site-nav ul {
->>>>>>> c6093dbdbc489e674d8b3ab3efa6c2f7a335b642
 	height: 60px;
 	width: 100%;
 	justify-content: flex-end;

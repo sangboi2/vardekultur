@@ -49,10 +49,10 @@ smoothScroll();
 //Button showing info godt at vide
 
 function showInfo() {
-  var show = document.getElementById("info1");
-  if (show.style.display == "block") {
-      show.style.display = "none";
+  var x = document.getElementById("info1");
+  if (x.style.display == "block") {
+      x.style.display = "none";
   } else {
-      show.style.display = "block";
+      x.style.display = "block";
   }
 }

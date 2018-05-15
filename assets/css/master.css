@@ -50,15 +50,41 @@ width; 100%;
 /* navigation - slut*/
 
 /* godt at vide - start*/
+#godt-at-vide {
+	margin: auto;
+	padding: 0;
+}
+
 #aboutwrapper {
+	width: 100%;
+	margin: auto;
 	display: flex;
 	flex-direction: column;
+
 }
 
 .infobox {
+	background: none;
+	border: none;
+	width: 75%;
 	display: block;
-
+	margin: auto;
+	padding: 15px 0;
+	border-top: 1px solid #000000;
+	text-align: left;
+	cursor: pointer;
 }
+
+button:focus {
+	outline: 0;
+}
+
+.plus {
+	position: absolute;
+	margin: 0 auto;
+	right: 15%;
+}
+
 /* godt at vide - slut*/
 
 /* footer*/

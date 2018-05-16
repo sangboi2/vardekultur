@@ -46,7 +46,6 @@ function scrollTo(destination, step)
 
 smoothScroll();
 
-<<<<<<< HEAD
 /*-------- slider --------*/
 
 var myIndex = 0;
@@ -65,15 +64,3 @@ function carousel() {
 }
 
 /*-------- slider- slut --------*/
-=======
-//Button showing info godt at vide
-
-function showInfo() {
-  var x = document.getElementById("info1");
-  if (x.style.display == "block") {
-      x.style.display = "none";
-  } else {
-      x.style.display = "block";
-  }
-}
->>>>>>> Vy-godt-at-vide

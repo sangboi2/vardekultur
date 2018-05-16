@@ -11,7 +11,7 @@ body {
 	margin-top: 180px;
 }
 
-#forside, #events, #om-festivallen, #godt-at-vide {
+#forside, #events, #om-festivallen {
 height: 1080px;
 width; 100%;
 }
@@ -87,7 +87,7 @@ width; 100%;
 	display: flex;
 	flex-direction: row;
 	text-align: left;
-	margin: 30px;
+	margin: 80px;
 }
 
 .banner-container {
@@ -108,10 +108,6 @@ width; 100%;
 	flex: 1;
 }
 
-#godt-at-vide {
-	background-color: red;
-
-}
 
 .nav-logo img {
 	height: 50px;
@@ -166,12 +162,12 @@ width; 100%;
 
 footer {
 	text-align: center;
-	height: 100px;
 	background-color: #3C5460;
 	display: flex;
-	padding: 5px;
+	padding: 30px;
 	flex-direction: row;
 	justify-content: flex-end;
+	height: 100px;
 }
 
 footer p {

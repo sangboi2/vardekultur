@@ -60,7 +60,7 @@ width; 100%;
 
 .nav-logo {
 	max-width: 100px;
-=======
+}
 #events {
 	background-color: blue;
 	font-family: 'augusta', sans-serif;
@@ -70,13 +70,15 @@ width; 100%;
 
 #om-festivallen {
 	text-align: center;
-
 }
 
+.om-festivallen {
+	
+}
 
 #godt-at-vide {
 	background-color: red;
->>>>>>> Jacob
+
 }
 
 .nav-logo img {
@@ -172,3 +174,4 @@ footer img {
 		height: 400px;
 		flex: 1;
 		order: 2;
+	}

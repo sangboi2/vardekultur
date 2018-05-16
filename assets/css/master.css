@@ -57,7 +57,7 @@ width; 100%;
 
 #aboutwrapper {
 	width: 100%;
-	margin: auto;
+	margin: 30px auto;
 	display: flex;
 	flex-direction: column;
 
@@ -79,10 +79,16 @@ button:focus {
 	outline: 0;
 }
 
-#info1 {
+#info1, #info2, #info3, #info4, #info5, #info6, #info7, #info8 {
+	display: none;
 	text-align: left;
 	width: 75%;
+	padding: 0;
 	margin: auto;
+}
+
+.plus {
+	
 }
 
 /* godt at vide - slut*/

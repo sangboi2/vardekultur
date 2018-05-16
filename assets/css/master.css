@@ -73,7 +73,27 @@ width; 100%;
 }
 
 .om-festivallen {
-	...
+	height: 50%;
+	width: 100%;
+}
+.varde-logo {
+	height: 100%;
+	width: 100%;
+}
+.tekst-logo {
+	display: flex;
+	flex-direction: row;
+}
+.om-festivallen-tekst {
+	display: block;
+	order: 1;
+	flex: 3;
+}
+
+.om-festivallen-logo {
+	display: block;
+	order: 2;
+	flex: 1;
 }
 
 #godt-at-vide {

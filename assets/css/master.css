@@ -67,41 +67,65 @@ width; 100%;
 	font-size: 25px;
 }
 
+/*deltag start*/
+
 #deltag-frivillig {
-	padding: 15px;
 	background-color: brown;
+	height: 250px;
+	padding: 0 50px;
 }
 
 .deltagbox {
 	display: flex;
 	flex-direction: row;
 
-
 }
 
 .writeinfo {
 	display: block;
-	margin: 50px 15px 15px 0;
-	width: 20%;
+	margin: 50px 25px 50px 0;
+	width: 40%;
 	height: 40px;
 	border: none;
 	border-radius: 25px;
 	padding-left: 5px;
 }
 
-.checkaf {
+.writeinfo:focus {
+	 outline: 0;
+}
+
+.checkafbox {
+	margin: auto;
+	padding: 0;
 	display: flex;
 	flex-direction: row;
 
 }
 
 .lillebox {
-	padding: 25px;
+	background: none;
+	margin: auto auto auto 0;
 	display: block;
-	border: solid #ffffff;
-	width: 25px;
 
 }
+
+.sendknap {
+	margin: auto 40px auto auto;
+	background: blue;
+	border: none;
+	border-radius: 25px;
+	width: 15%;
+	height: 40px;
+	cursor: pointer;
+
+}
+
+.sendknap:focus {
+	outline: 0;
+}
+
+/*deltag slut*/
 
 
 #om-festivallen {

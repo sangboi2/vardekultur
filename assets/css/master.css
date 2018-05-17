@@ -21,6 +21,14 @@ height: 1080px;
 width; 100%;
 }
 
+.overskrift-center {
+	font-family: augusta, sans-serif;
+	text-align: center;
+	color: #AC683A;
+	font-size: 4em;
+	margin: 80px 0px 50px 0px;
+
+}
 /* basic styling slut*/
 
 
@@ -69,8 +77,6 @@ width; 100%;
 	align-self: center;
 	margin: 0px 10px 20px 160px;
 }
-
-
 /* navigation - slut*/
 
 
@@ -81,6 +87,30 @@ width; 100%;
 	text-align: center;
 }
 
+.intro-tekst {
+}
+
+.intro-tekst h2 {
+	font-family: 'augusta', sans-serif;
+	color: #AC683A;
+	font-size: 5em;
+}
+
+.intro-tekst p {
+	font-family: 'Avenir', sans-serif;
+	color: #AC683A;
+	font-size: 1.4em;
+}
+
+#forside-slider {
+ margin-top: 40px;
+ max-width: 1920px;
+}
+
+.mySlides {
+	display:none;
+	width: 100%;
+}
 /*forside slut*/
 
 
@@ -234,7 +264,6 @@ width; 100%;
 
 .om-festivallen {
 	width: 100%;
-<<<<<<< HEAD
 	display: block;
 }
 .varde-logo {
@@ -267,33 +296,6 @@ width; 100%;
 	flex: 1;
 }
 
-.intro-tekst {
-}
-
-.intro-tekst h2 {
-	font-family: 'augusta', sans-serif;
-	color: #AC683A;
-	font-size: 5em;
-}
-
-.intro-tekst p {
-	font-family: 'Avenir', sans-serif;
-	color: #AC683A;
-	font-size: 1.4em;
-}
-
-#forside-slider {
- margin-top: 40px;
- max-width: 1920px;
-}
-
-.mySlides {
-	display:none;
-	width: 100%;
-}
-
-
-/* forside - slut*/
 
 
 /* godt at vide - start*/

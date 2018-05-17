@@ -52,12 +52,12 @@ width; 100%;
 }
 
 .nav-logo {
-display: block;
+position: absolute;
 top:0;
 color: white;
 align-self: center;
 justify-content: center;
-
+height: 700px;
 }
 
 

@@ -26,7 +26,6 @@ width; 100%;
 	width: 100%;
 	background-color: #3C5460;
 	display: flex;
-	flex-direction: row;
 	align-content: space-between;
 }
 
@@ -57,9 +56,12 @@ top:0;
 color: white;
 align-self: center;
 justify-content: center;
-height: 700px;
 }
 
+.nav-logo img {
+	height: 337px;
+	width: 216px;
+}
 
 
 /* navigation - slut*/
@@ -70,15 +72,6 @@ height: 700px;
 
 #forside {
 	text-align: center;
-}
-
-.nav-logo {
-	max-width: 100px;
-}
-
-.nav-logo img {
-	height: 50px;
-	width: 50px;
 }
 
 .intro-tekst {

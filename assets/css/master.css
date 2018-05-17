@@ -11,6 +11,11 @@ body {
 	margin-top: 130px;
 }
 
+@font-face {
+    font-family: Augusta, sans-serif;
+    src: url(assets/fonts/Augusta.tff);
+}
+
 #forside, #events, #om-festivallen {
 height: 1080px;
 width; 100%;
@@ -86,7 +91,7 @@ width; 100%;
 			margin-left: 0px;
 			opacity: 0.7;
 		}
-		
+
 		#content> *{
 			padding: 100px;
 		}

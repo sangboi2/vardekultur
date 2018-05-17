@@ -81,6 +81,11 @@ width; 100%;
 	text-align: center;
 }
 
+/*forside slut*/
+
+
+/*events start*/
+
 #content{
 			display: grid;
 			grid-template-columns:repeat(12,1fr);
@@ -160,6 +165,8 @@ width; 100%;
 			font-size: 24px;
 			font-weight: bold;
 		}
+
+/*events slut*/
 
 /*deltag start*/
 

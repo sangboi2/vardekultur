@@ -69,12 +69,10 @@ width; 100%;
 
 #deltag-frivillig {
 	padding: 15px;
-	width: 100%;
 	background-color: brown;
 }
 
 .deltagbox {
-	width: 100%;
 	display: flex;
 	flex-direction: row;
 

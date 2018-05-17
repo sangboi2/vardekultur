@@ -11,6 +11,11 @@ body {
 	margin-top: 130px;
 }
 
+@font-face {
+    font-family: Augusta, sans-serif;
+    src: url(assets/fonts/Augusta.tff);
+}
+
 #forside, #events, #om-festivallen {
 height: 1080px;
 width; 100%;
@@ -56,6 +61,15 @@ width; 100%;
 	align-self: center;
 	margin: 0px 10px 20px 30px;
 }
+
+.sprog {
+	position: absolute;
+	top:0;
+	left: 0;
+	align-self: center;
+	margin: 0px 10px 20px 160px;
+}
+
 
 /* navigation - slut*/
 

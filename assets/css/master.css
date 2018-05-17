@@ -26,19 +26,17 @@ width; 100%;
 	width: 100%;
 	background-color: #3C5460;
 	display: flex;
-	align-content: space-between;
+	justify-content: flex-end;
 }
 
 #site-nav ul {
-	height: 60px;
-	justify-content: flex-end;
+	height: 80px;
 	display: flex;
-	align-items: center;
 }
 
 #site-nav li {
 	list-style-type: none;
-		align-self: center;
+	align-self: center;
 }
 
 #site-nav li a {
@@ -51,18 +49,16 @@ width; 100%;
 }
 
 .nav-logo {
-position: absolute;
-top:0;
-color: white;
-align-self: center;
-justify-content: center;
+	position: absolute;
+	top:0;
+	left:0;
+	align-self: center;
+	margin: 0px 10px 20px 30px;
 }
 
 .nav-logo img {
-	height: 337px;
-	width: 216px;
-}
 
+}
 
 /* navigation - slut*/
 

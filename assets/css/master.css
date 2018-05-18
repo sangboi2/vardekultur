@@ -21,6 +21,14 @@ height: 1080px;
 width; 100%;
 }
 
+.overskrift-center {
+	font-family: augusta, sans-serif;
+	text-align: center;
+	color: #AC683A;
+	font-size: 4em;
+	margin: 80px 0px 50px 0px;
+
+}
 /* basic styling slut*/
 
 
@@ -70,13 +78,9 @@ width; 100%;
 	margin: 0px 10px 20px 160px;
 }
 
-<<<<<<< HEAD
 .sprog img {
 	padding: 0px 5px 0px 7px;
 }
-=======
-
->>>>>>> master
 /* navigation - slut*/
 
 
@@ -87,20 +91,35 @@ width; 100%;
 	text-align: center;
 }
 
+.intro-tekst {
+}
+
+.intro-tekst h2 {
+	font-family: 'augusta', sans-serif;
+	color: #AC683A;
+	font-size: 5em;
+}
+
+.intro-tekst p {
+	font-family: 'Avenir', sans-serif;
+	color: #AC683A;
+	font-size: 1.4em;
+}
+
+#forside-slider {
+ margin-top: 40px;
+ max-width: 1920px;
+}
+
+.mySlides {
+	display:none;
+	width: 100%;
+}
 /*forside slut*/
 
 
 /*events start*/
-h1{
-	color: #fff;
-	text-align: center;
-}
-.eventstitle{
-	color: #AC683A;
-	font-family: augusta, sans-serif;
-	text-align: center;
-	font-size: 4em;
-}
+
 #content{
 			display: grid;
 			grid-template-columns:repeat(12,1fr);
@@ -112,14 +131,7 @@ h1{
 		}
 
 		#content> *{
-			padding: 135px;
-		}
-		#content p{
-			color: #fff;
-			font-size: 24px;
-			font-family: augusta, sans-serif;
-			font-weight: bold;
-			text-align: center;
+			padding: 100px;
 		}
 		.box1{
 			grid-column: 1/5;
@@ -155,6 +167,35 @@ h1{
 			grid-column: 9/13;
 			grid-row: 4/6;
 			background-image: url("../images/box7.jpg");
+		}
+		.gag{
+			font-size: 24px;
+			font-weight: bold;
+		}
+		.byg{
+			font-size: 24px;
+			font-weight: bold;
+		}
+		.prøv{
+			font-size: 24px;
+			font-weight: bold;
+
+		}
+		.tur{
+			font-size: 24px;
+			font-weight: bold;
+		}
+		.træning{
+			font-size: 24px;
+			font-weight: bold;
+		}
+		.foto{
+			font-size: 24px;
+			font-weight: bold;
+		}
+		.mad{
+			font-size: 24px;
+			font-weight: bold;
 		}
 
 /*events slut*/
@@ -227,7 +268,6 @@ h1{
 
 .om-festivallen {
 	width: 100%;
-<<<<<<< HEAD
 	display: block;
 }
 .varde-logo {
@@ -260,33 +300,6 @@ h1{
 	flex: 1;
 }
 
-.intro-tekst {
-}
-
-.intro-tekst h2 {
-	font-family: 'augusta', sans-serif;
-	color: #AC683A;
-	font-size: 5em;
-}
-
-.intro-tekst p {
-	font-family: 'Avenir', sans-serif;
-	color: #AC683A;
-	font-size: 1.4em;
-}
-
-#forside-slider {
- margin-top: 40px;
- max-width: 1920px;
-}
-
-.mySlides {
-	display:none;
-	width: 100%;
-}
-
-
-/* forside - slut*/
 
 
 /* godt at vide - start*/

@@ -70,9 +70,7 @@ width; 100%;
 	margin: 0px 10px 20px 160px;
 }
 
-.sprog img {
-	padding: 0px 5px 0px 7px;
-}
+
 /* navigation - slut*/
 
 
@@ -83,30 +81,6 @@ width; 100%;
 	text-align: center;
 }
 
-.intro-tekst {
-}
-
-.intro-tekst h2 {
-	font-family: 'augusta', sans-serif;
-	color: #AC683A;
-	font-size: 5em;
-}
-
-.intro-tekst p {
-	font-family: 'Raleway', sans-serif;;
-	color: #AC683A;
-	font-size: 1.4em;
-}
-
-#forside-slider {
- margin-top: 40px;
- max-width: 1920px;
-}
-
-.mySlides {
-	display:none;
-	width: 100%;
-}
 /*forside slut*/
 
 
@@ -341,11 +315,8 @@ h1{
 }
 
 .plus {
-	position: absolute;
 	padding: 0;
 	margin: 0;
-	right: 380px;
-
 }
 /* godt at vide - slut*/
 

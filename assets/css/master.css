@@ -118,7 +118,17 @@ body {
 /*events start*/
 h1{
 	color: #fff;
+	font-family: 'augusta', sans-serif;
 	text-align: center;
+	font-weight: bold;
+
+}
+h2{
+	color: #AC683A;
+	font-size: 5em;
+	text-align: center;
+	font-family: 'augusta', sans-serif;
+	font-weight: bold;
 }
 #content{
 			display: grid;

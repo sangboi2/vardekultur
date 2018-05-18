@@ -17,7 +17,7 @@ body {
 }
 
 #forside, #events, #om-festivallen {
-height: 1080px;
+height: auto;
 width; 100%;
 }
 

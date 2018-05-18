@@ -12,8 +12,8 @@ body {
 }
 
 @font-face {
-    font-family: myFirstFont;
-    src: url("assets/fonts/Augusta.tff");
+    font-family: "myFirstFont";
+    src: url("../fonts/Augusta.tff") format("truetype");
 }
 
 
@@ -23,7 +23,7 @@ width: 100%;
 }
 
 .overskrift-center {
-	font-family: 'augusta', sans-serif;
+	font-family: "myFirstFont", sans-serif;
 	text-align: center;
 	color: #AC683A;
 	font-size: 3em;

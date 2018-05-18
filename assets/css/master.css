@@ -15,7 +15,6 @@ body {
     font-family: 'augusta';
     src: url("fonts/Augusta.tff");
 		font-style: normal;
-
 }
 
 
@@ -143,7 +142,7 @@ width: 100%;
 			font-weight: bold;
 			text-align: center;
 		}
-	
+
 		.box1{
 			grid-column: 1/5;
 			background-image: url("../images/box1.jpg");

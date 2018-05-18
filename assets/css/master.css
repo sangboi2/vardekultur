@@ -128,13 +128,7 @@ h1{
 	font-weight: bold;
 
 }
-.eventstitle h2{
-	color: #AC683A;
-	font-size: 5em;
-	text-align: center;
-	font-family: 'augusta', sans-serif;
-	font-weight: bold;
-}
+
 #content{
 			display: grid;
 			grid-template-columns:repeat(12,1fr);
@@ -148,20 +142,7 @@ h1{
 		#content> *{
 			padding: 135px;
 		}
-		#content p{
-			color: #fff;
-			font-size: 24px;
-			font-family: augusta, sans-serif;
-			font-weight: bold;
-			text-align: center;
-		}
-		#content p{
-			color: #fff;
-			font-size: 24px;
-			font-family: augusta, sans-serif;
-			font-weight: bold;
-			text-align: center;
-		}
+
 		#content p{
 			color: #fff;
 			font-size: 24px;
@@ -267,6 +248,7 @@ h1{
 
 /*deltag slut*/
 
+/*om festivallen*/
 
 #om-festivallen {
 	text-align: center;
@@ -275,7 +257,6 @@ h1{
 
 .om-festivallen {
 	width: 100%;
-<<<<<<< HEAD
 	display: block;
 }
 .varde-logo {
@@ -308,33 +289,7 @@ h1{
 	flex: 1;
 }
 
-.intro-tekst {
-}
-
-.intro-tekst h2 {
-	font-family: 'augusta', sans-serif;
-	color: #AC683A;
-	font-size: 5em;
-}
-
-.intro-tekst p {
-	font-family: 'Avenir', sans-serif;
-	color: #AC683A;
-	font-size: 1.4em;
-}
-
-#forside-slider {
- margin-top: 40px;
- max-width: 1920px;
-}
-
-.mySlides {
-	display:none;
-	width: 100%;
-}
-
-
-/* forside - slut*/
+/*om festivallen slut*/
 
 
 /* godt at vide - start*/

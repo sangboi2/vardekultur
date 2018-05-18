@@ -18,13 +18,8 @@ body {
 
 
 #forside, #events, #om-festivallen {
-<<<<<<< HEAD
 height: auto;
 width; 100%;
-=======
-	height: 1080px;
-	width; 100%;
->>>>>>> Jacob
 }
 
 .overskrift-center {
@@ -130,15 +125,14 @@ h1{
 	color: #fff;
 	text-align: center;
 }
-<<<<<<< HEAD
-.eventstitle{
+
+.eventstitle {
 	color: #AC683A;
 	font-family: augusta, sans-serif;
 	text-align: center;
 	font-size: 4em;
 }
-=======
->>>>>>> Jacob
+
 #content{
 			display: grid;
 			grid-template-columns:repeat(12,1fr);

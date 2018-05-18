@@ -121,6 +121,23 @@ width: 100%;
 
 
 /*events start*/
+<<<<<<< HEAD
+=======
+h1{
+	color: #fff;
+	font-family: 'augusta', sans-serif;
+	text-align: center;
+	font-weight: bold;
+
+}
+.eventstitle{
+	color: #AC683A;
+	font-size: 5em;
+	text-align: center;
+	font-family: 'augusta', sans-serif;
+	font-weight: bold;
+}
+>>>>>>> Phillip
 #content{
 			display: grid;
 			grid-template-columns:repeat(12,1fr);

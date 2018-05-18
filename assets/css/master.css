@@ -77,6 +77,10 @@ width; 100%;
 	align-self: center;
 	margin: 0px 10px 20px 160px;
 }
+
+.sprog img {
+	padding: 0px 5px 0px 7px;
+}
 /* navigation - slut*/
 
 
@@ -330,8 +334,11 @@ width; 100%;
 }
 
 .plus {
+	position: absolute;
 	padding: 0;
 	margin: 0;
+	right: 380px;
+
 }
 /* godt at vide - slut*/
 

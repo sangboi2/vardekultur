@@ -13,7 +13,7 @@ body {
 
 @font-face {
     font-family: "myFirstFont";
-    src: url("../fonts/Augusta.tff") format("truetype");
+    src: local("Augusta"), url("../fonts/Augusta.tff") format("truetype");
 }
 
 

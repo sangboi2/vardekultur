@@ -252,9 +252,8 @@ width: 100%;
 	display: block;
 }
 .varde-logo {
-	height: 100%;
+	/*height: 100%;*/
 	width: 100%;
-	margin-left: 15px;
 }
 .tekst-logo {
 	display: flex;
@@ -272,13 +271,25 @@ width: 100%;
 .om-festivallen-tekst {
 	display: block;
 	order: 1;
-	flex: 3;
+	flex: 2;
 }
 
 .om-festivallen-logo {
 	display: block;
 	order: 2;
 	flex: 1;
+	margin: 0 0 0 25px;
+	padding: 0;
+}
+
+#spanbreakindhold {
+	display: flex;
+	flex-direction: column;
+}
+
+.spanbreak {
+	display: block;
+	margin: 50px 0;
 }
 
 /*om festivallen slut*/

@@ -12,8 +12,10 @@ body {
 }
 
 @font-face {
-    font-family: "myFirstFont";
-    src: url("../fonts/Augusta.tff") format("truetype");
+    font-family: 'augusta';
+    src: url("fonts/Augusta.tff");
+		font-style: normal;
+
 }
 
 
@@ -23,7 +25,7 @@ width: 100%;
 }
 
 .overskrift-center {
-	font-family: "myFirstFont", sans-serif;
+	font-family: 'augusta', sans-serif;
 	text-align: center;
 	color: #AC683A;
 	font-size: 3em;
@@ -248,11 +250,14 @@ h1{
 
 /*deltag slut*/
 
+<<<<<<< HEAD
 /*om festivallen*/
+=======
+/* om festivallen - start*/
+>>>>>>> Amanda
 
 #om-festivallen {
 	text-align: center;
-
 }
 
 .om-festivallen {
@@ -289,8 +294,12 @@ h1{
 	flex: 1;
 }
 
+<<<<<<< HEAD
 /*om festivallen slut*/
 
+=======
+/* om festivallen - slut*/
+>>>>>>> Amanda
 
 /* godt at vide - start*/
 #aboutwrapper {
@@ -309,7 +318,6 @@ h1{
 	background: none;
 	cursor: pointer;
 	border-top: 1px solid #000000;
-
 }
 
 .infobox:focus { outline: 0; }

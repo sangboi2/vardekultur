@@ -9,17 +9,18 @@
 body {
 	width: 100%;
 	margin-top: 130px;
+	font-family: "augusta.tff";
 }
 
 @font-face {
-    font-family: myFirstFont;
-    src: url("assets/fonts/Augusta.tff");
+    font-family: "myFirstFont";
+    src: url("assets/fonts/Augusta.tff") format("tff");
 }
+
 
 #forside, #events, #om-festivallen {
 	height: 1080px;
 	width; 100%;
-	font-family: myFirstFont;
 }
 
 /* basic styling slut*/

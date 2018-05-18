@@ -13,19 +13,25 @@ body {
 
 @font-face {
     font-family: myFirstFont;
-    src: url(assets/fonts/Augusta.tff);
+    src: url("assets/fonts/Augusta.tff");
 }
 
+
 #forside, #events, #om-festivallen {
+<<<<<<< HEAD
 height: auto;
 width; 100%;
+=======
+	height: 1080px;
+	width; 100%;
+>>>>>>> Jacob
 }
 
 .overskrift-center {
-	font-family: augusta, sans-serif;
+	font-family: 'augusta', sans-serif;
 	text-align: center;
 	color: #AC683A;
-	font-size: 4em;
+	font-size: 3em;
 	margin: 80px 0px 50px 0px;
 
 }
@@ -124,24 +130,34 @@ h1{
 	color: #fff;
 	text-align: center;
 }
+<<<<<<< HEAD
 .eventstitle{
 	color: #AC683A;
 	font-family: augusta, sans-serif;
 	text-align: center;
 	font-size: 4em;
 }
+=======
+>>>>>>> Jacob
 #content{
 			display: grid;
 			grid-template-columns:repeat(12,1fr);
 			grid-auto-rows:minmax(100px,auto);
 			max-width: 100%;
-			margin: 0;
-			grid-gap: 10px;
-			margin-left: 0px;
+			grid-gap: 5px;
+			margin-left: 50px;
+			margin-right: 50px;
 		}
 
 		#content> *{
 			padding: 135px;
+		}
+		#content p{
+			color: #fff;
+			font-size: 24px;
+			font-family: augusta, sans-serif;
+			font-weight: bold;
+			text-align: center;
 		}
 		#content p{
 			color: #fff;
@@ -191,7 +207,7 @@ h1{
 /*deltag start*/
 
 #deltag-frivillig {
-	background-color: brown;
+	background-color: #AC683A;
 	height: 250px;
 	padding: 0 50px;
 }

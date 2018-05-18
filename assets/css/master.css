@@ -258,15 +258,14 @@ h1{
 
 /*deltag slut*/
 
+/* om festivallen - start*/
 
 #om-festivallen {
 	text-align: center;
-
 }
 
 .om-festivallen {
 	width: 100%;
-<<<<<<< HEAD
 	display: block;
 }
 .varde-logo {
@@ -299,34 +298,7 @@ h1{
 	flex: 1;
 }
 
-.intro-tekst {
-}
-
-.intro-tekst h2 {
-	font-family: 'augusta', sans-serif;
-	color: #AC683A;
-	font-size: 5em;
-}
-
-.intro-tekst p {
-	font-family: 'Avenir', sans-serif;
-	color: #AC683A;
-	font-size: 1.4em;
-}
-
-#forside-slider {
- margin-top: 40px;
- max-width: 1920px;
-}
-
-.mySlides {
-	display:none;
-	width: 100%;
-}
-
-
-/* forside - slut*/
-
+/* om festivallen - slut*/
 
 /* godt at vide - start*/
 #aboutwrapper {
@@ -345,7 +317,6 @@ h1{
 	background: none;
 	cursor: pointer;
 	border-top: 1px solid #000000;
-
 }
 
 .infobox:focus { outline: 0; }

@@ -123,16 +123,18 @@ width: 100%;
 /*events start*/
 h1{
 	color: #fff;
+	font-family: 'augusta', sans-serif;
 	text-align: center;
-}
+	font-weight: bold;
 
-.eventstitle {
+}
+h2{
 	color: #AC683A;
-	font-family: augusta, sans-serif;
+	font-size: 5em;
 	text-align: center;
-	font-size: 4em;
+	font-family: 'augusta', sans-serif;
+	font-weight: bold;
 }
-
 #content{
 			display: grid;
 			grid-template-columns:repeat(12,1fr);
@@ -145,6 +147,13 @@ h1{
 
 		#content> *{
 			padding: 135px;
+		}
+		#content p{
+			color: #fff;
+			font-size: 24px;
+			font-family: augusta, sans-serif;
+			font-weight: bold;
+			text-align: center;
 		}
 		#content p{
 			color: #fff;

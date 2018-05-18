@@ -83,6 +83,33 @@ width; 100%;
 	text-align: center;
 }
 
+<<<<<<< HEAD
+=======
+.intro-tekst {
+}
+
+.intro-tekst h2 {
+	font-family: 'augusta', sans-serif;
+	color: #AC683A;
+	font-size: 5em;
+}
+
+.intro-tekst p {
+	font-family: 'Raleway', sans-serif;;
+	color: #AC683A;
+	font-size: 1.4em;
+}
+
+#forside-slider {
+ margin-top: 40px;
+ max-width: 1920px;
+}
+
+.mySlides {
+	display:none;
+	width: 100%;
+}
+>>>>>>> Amanda
 /*forside slut*/
 
 

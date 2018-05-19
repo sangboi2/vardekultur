@@ -116,20 +116,6 @@ body {
 
 
 /*events start*/
-h1{
-	color: #fff;
-	font-family: 'augusta', sans-serif;
-	text-align: center;
-	font-weight: bold;
-
-}
-.eventstitle{
-	color: #AC683A;
-	font-size: 5em;
-	text-align: center;
-	font-family: 'augusta', sans-serif;
-	font-weight: bold;
-}
 #content{
 			display: grid;
 			grid-template-columns:repeat(12,1fr);
@@ -142,6 +128,8 @@ h1{
 
 		#content> *{
 			padding: 100px;
+			background-size: cover;
+			background-position: center;
 		}
 		#content p{
 			color: #fff;

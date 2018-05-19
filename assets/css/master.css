@@ -12,24 +12,25 @@ body {
 }
 
 @font-face {
-    font-family: myFirstFont;
-    src: url("assets/fonts/Augusta.tff");
+    font-family: "myFirstFont";
+    src: local("Augusta"), url("../fonts/Augusta.tff") format("truetype");
 }
 
 
 #forside, #events, #om-festivallen {
-	height: 1080px;
-	width; 100%;
+height: auto;
+width: 100%;
 }
 
 .overskrift-center {
-	font-family: 'augusta', sans-serif;
+	font-family: "myFirstFont", sans-serif;
 	text-align: center;
 	color: #AC683A;
 	font-size: 3em;
 	margin: 80px 0px 50px 0px;
 
 }
+
 /* basic styling slut*/
 
 
@@ -78,9 +79,11 @@ body {
 	align-self: center;
 	margin: 0px 10px 20px 160px;
 }
+
+.sprog img {
+	padding: 0px 5px 0px 7px;
+}
 /* navigation - slut*/
-
-
 
 /* forside - start*/
 
@@ -98,7 +101,7 @@ body {
 }
 
 .intro-tekst p {
-	font-family: 'Avenir', sans-serif;
+	font-family: 'Raleway', sans-serif;;
 	color: #AC683A;
 	font-size: 1.4em;
 }
@@ -116,6 +119,20 @@ body {
 
 
 /*events start*/
+h1{
+	color: #fff;
+	font-family: 'augusta', sans-serif;
+	text-align: center;
+	font-weight: bold;
+
+}
+.eventstitle{
+	color: #AC683A;
+	font-size: 5em;
+	text-align: center;
+	font-family: 'augusta', sans-serif;
+	font-weight: bold;
+}
 #content{
 			display: grid;
 			grid-template-columns:repeat(12,1fr);
@@ -138,6 +155,7 @@ body {
 			font-weight: bold;
 			text-align: center;
 		}
+
 		.box1{
 			grid-column: 1/5;
 			background-image: url("../images/box1.jpg");
@@ -173,42 +191,13 @@ body {
 			grid-row: 4/6;
 			background-image: url("../images/box7.jpg");
 		}
-		.gag{
-			font-size: 24px;
-			font-weight: bold;
-		}
-		.byg{
-			font-size: 24px;
-			font-weight: bold;
-		}
-		.prøv{
-			font-size: 24px;
-			font-weight: bold;
-
-		}
-		.tur{
-			font-size: 24px;
-			font-weight: bold;
-		}
-		.træning{
-			font-size: 24px;
-			font-weight: bold;
-		}
-		.foto{
-			font-size: 24px;
-			font-weight: bold;
-		}
-		.mad{
-			font-size: 24px;
-			font-weight: bold;
-		}
 
 /*events slut*/
 
 /*deltag start*/
 
 #deltag-frivillig {
-	background-color: brown;
+	background-color: #AC683A;
 	height: 250px;
 	padding: 0 50px;
 }
@@ -250,7 +239,7 @@ body {
 
 .sendknap {
 	margin: auto 40px auto auto;
-	background: blue;
+	background: #3C5460;
 	border: none;
 	border-radius: 25px;
 	width: 15%;
@@ -265,6 +254,7 @@ body {
 
 /*deltag slut*/
 
+/*om festivallen*/
 
 #om-festivallen {
 	text-align: center;
@@ -276,9 +266,8 @@ body {
 	display: block;
 }
 .varde-logo {
-	height: 100%;
+	/*height: 100%;*/
 	width: 100%;
-	margin-left: 15px;
 }
 .tekst-logo {
 	display: flex;
@@ -296,15 +285,28 @@ body {
 .om-festivallen-tekst {
 	display: block;
 	order: 1;
-	flex: 3;
+	flex: 2;
 }
 
 .om-festivallen-logo {
 	display: block;
 	order: 2;
 	flex: 1;
+	margin: 0 0 0 25px;
+	padding: 0;
 }
 
+#spanbreakindhold {
+	display: flex;
+	flex-direction: column;
+}
+
+.spanbreak {
+	display: block;
+	margin: 50px 0;
+}
+
+/*om festivallen slut*/
 
 
 /* godt at vide - start*/
@@ -339,8 +341,11 @@ body {
 }
 
 .plus {
+	position: absolute;
 	padding: 0;
 	margin: 0;
+	right: 380px;
+
 }
 /* godt at vide - slut*/
 

@@ -122,6 +122,7 @@ width: 100%;
 
 /*events start*/
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 h1{
 	color: #fff;
@@ -138,6 +139,8 @@ h1{
 	font-weight: bold;
 }
 >>>>>>> Phillip
+=======
+>>>>>>> Phillip
 #content{
 			display: grid;
 			grid-template-columns:repeat(12,1fr);
@@ -149,7 +152,13 @@ h1{
 		}
 
 		#content> *{
+<<<<<<< HEAD
 			padding: 135px;
+=======
+			padding: 100px;
+			background-size: cover;
+			background-position: center;
+>>>>>>> Phillip
 		}
 		#content p{
 			color: #fff;

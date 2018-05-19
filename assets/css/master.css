@@ -79,15 +79,11 @@ width: 100%;
 	align-self: center;
 	margin: 0px 10px 20px 160px;
 }
-<<<<<<< HEAD
 
 .sprog img {
 	padding: 0px 5px 0px 7px;
 }
 /* navigation - slut*/
-
-=======
->>>>>>> Phillip
 
 .sprog img {
 	padding: 0px 5px 0px 7px;
@@ -128,12 +124,7 @@ width: 100%;
 
 
 /*events start*/
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> Phillip
+
 h1{
 	color: #fff;
 	font-family: 'augusta', sans-serif;
@@ -141,19 +132,7 @@ h1{
 	font-weight: bold;
 
 }
-.eventstitle{
-	color: #AC683A;
-	font-size: 5em;
-	text-align: center;
-	font-family: 'augusta', sans-serif;
-	font-weight: bold;
-}
-<<<<<<< HEAD
->>>>>>> Phillip
-=======
->>>>>>> Phillip
-=======
->>>>>>> Phillip
+
 #content{
 			display: grid;
 			grid-template-columns:repeat(12,1fr);
@@ -165,13 +144,11 @@ h1{
 		}
 
 		#content> *{
-<<<<<<< HEAD
-			padding: 135px;
-=======
+
 			padding: 100px;
 			background-size: cover;
 			background-position: center;
->>>>>>> Phillip
+
 		}
 		#content p{
 			color: #fff;
@@ -319,7 +296,6 @@ h1{
 	flex: 1;
 	margin: 0 0 0 25px;
 	padding: 0;
-<<<<<<< HEAD
 }
 
 #spanbreakindhold {
@@ -332,9 +308,6 @@ h1{
 	margin: 50px 0;
 }
 
-=======
-}
-
 #spanbreakindhold {
 	display: flex;
 	flex-direction: column;
@@ -345,7 +318,6 @@ h1{
 	margin: 50px 0;
 }
 
->>>>>>> Phillip
 /*om festivallen slut*/
 
 

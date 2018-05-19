@@ -117,22 +117,14 @@ width: 100%;
 }
 /*forside slut*/
 
-
-/*events start*/
 h1{
 	color: #fff;
-	font-family: 'augusta', sans-serif;
+	font-family: augusta, sans-serif;
 	text-align: center;
 	font-weight: bold;
 
 }
-.eventstitle{
-	color: #AC683A;
-	font-size: 5em;
-	text-align: center;
-	font-family: 'augusta', sans-serif;
-	font-weight: bold;
-}
+/*events start*/
 #content{
 			display: grid;
 			grid-template-columns:repeat(12,1fr);
@@ -151,7 +143,7 @@ h1{
 		#content p{
 			color: #fff;
 			font-size: 24px;
-			font-family: augusta, sans-serif;
+			font-family: augusta, sfffrif;
 			font-weight: bold;
 			text-align: center;
 		}

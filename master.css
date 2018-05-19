@@ -79,15 +79,6 @@ width: 100%;
 	align-self: center;
 	margin: 0px 10px 20px 160px;
 }
-<<<<<<< HEAD
-
-.sprog img {
-	padding: 0px 5px 0px 7px;
-}
-/* navigation - slut*/
-
-=======
->>>>>>> Phillip
 
 .sprog img {
 	padding: 0px 5px 0px 7px;
@@ -126,41 +117,15 @@ width: 100%;
 }
 /*forside slut*/
 
-<<<<<<< HEAD
-=======
 
 /*events start*/
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> Phillip
->>>>>>> master
 h1{
 	color: #fff;
-	font-family: augusta, sans-serif;
+	font-family: 'augusta', sans-serif;
 	text-align: center;
 	font-weight: bold;
 
 }
-<<<<<<< HEAD
-/*events start*/
-=======
-.eventstitle{
-	color: #AC683A;
-	font-size: 5em;
-	text-align: center;
-	font-family: 'augusta', sans-serif;
-	font-weight: bold;
-}
-<<<<<<< HEAD
->>>>>>> Phillip
-=======
->>>>>>> Phillip
-=======
->>>>>>> Phillip
->>>>>>> master
 #content{
 			display: grid;
 			grid-template-columns:repeat(12,1fr);
@@ -172,18 +137,14 @@ h1{
 		}
 
 		#content> *{
-<<<<<<< HEAD
-			padding: 135px;
-=======
 			padding: 100px;
 			background-size: cover;
 			background-position: center;
->>>>>>> Phillip
 		}
 		#content p{
 			color: #fff;
 			font-size: 24px;
-			font-family: augusta, sfffrif;
+			font-family: augusta, sans-serif;
 			font-weight: bold;
 			text-align: center;
 		}
@@ -326,7 +287,6 @@ h1{
 	flex: 1;
 	margin: 0 0 0 25px;
 	padding: 0;
-<<<<<<< HEAD
 }
 
 #spanbreakindhold {
@@ -339,20 +299,6 @@ h1{
 	margin: 50px 0;
 }
 
-=======
-}
-
-#spanbreakindhold {
-	display: flex;
-	flex-direction: column;
-}
-
-.spanbreak {
-	display: block;
-	margin: 50px 0;
-}
-
->>>>>>> Phillip
 /*om festivallen slut*/
 
 

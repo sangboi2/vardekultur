@@ -195,6 +195,7 @@ h1{
 		outline: 0;
 }
 .checkafbox {
+		text-align: center;
 		margin: auto;
 		padding: 0;
 		display: flex;
@@ -203,11 +204,12 @@ h1{
 .lillebox {
 		font-size: 14.5px;
 		background: none;
-		margin: 0px 50px 0px 200px;
+		margin: 0px 50px 0px 190px;
 		display: block;
 		color: #fff;
 		font-size: 14.4px;
 		font-family: augusta, sans-serif;
+		text-align: center;
 	}
 .sendknap {
 		margin: auto 40px auto auto;

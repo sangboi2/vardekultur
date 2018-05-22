@@ -107,19 +107,20 @@ body {
 /*forside slut*/
 /*events start*/
 
-h2{
+/*h2{
 	color: #3C5460;
 	font-family: augusta, sans-serif;
 	font-size: 14.5px;
 	padding-left: 225px;
 	font-weight: bold;
-}
+}*/
 h1{
 		color: #fff;
 		font-family: augusta, sans-serif;
 		text-align: center;
 		font-weight: bold;
-		padding-top: 20px;
+		padding-top: 22px;
+		font-size: 1.9em;
 }
 #content{
 		display: grid;
@@ -280,21 +281,16 @@ h1{
 		margin: 0 0 0 25px;
 		padding: 0;
 }
-#spanbreakindhold {
-		display: flex;
-		flex-direction: column;
-}
-.spanbreak {
-		display: block;
-		margin: 50px 0;
-}
-#spanbreakindhold {
-		display: flex;
-		flex-direction: column;
-}
-.spanbreak {
-		display: block;
-		margin: 50px 0;
+#spanbreakindhold p{
+		color: #3C5460;
+		font-family: augusta, sans-serif;
+		font-size: 14.5px;
+		font-weight: bold;
+		letter-spacing: 0.01em;
+		text-align: left;
+		margin-left: 218px;
+		line-height: 3em;
+		padding: 5px
 }
 /*om festivallen slut*/
 /* godt at vide - start*/
@@ -366,7 +362,7 @@ footer p {
 		font-size: 14.5px;
 		font-family: august, sans-serif;
 		font-weight: bold;
-		display:flex ;
+		display:flex;
 		flex-direction: column;
 		text-align: left;
 		margin: 0 auto 0 25px;

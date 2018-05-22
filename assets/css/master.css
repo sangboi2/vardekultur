@@ -9,6 +9,8 @@ body {
 		width: 100%;
 		margin-top: 130px;
 		font-size: 14.5px;
+		letter-spacing: 0.05em;
+		line-height: normal;
 }
 		@font-face {
 		font-family: "myFirstFont";
@@ -181,7 +183,7 @@ h1{
 }
 .writeinfo {
 		display: block;
-		margin: 50px 25px 50px 0;
+		margin: 50px 30px 50px 0px;
 		width: 46%;
 		height: 40px;
 		border: none;
@@ -221,6 +223,8 @@ h1{
 		color: #fff;
 		font-size: 14.5px;
 		font-family: augusta, sans-serif;
+		letter-spacing: 0.05em;
+		line-height: normal;
 }
 .sendknap:focus {
 		outline: 0;
@@ -300,6 +304,7 @@ h1{
 		cursor: pointer;
 		border-top: 1px solid #000000;
 		font-family: augusta, sans-serif;
+		letter-spacing: 0.05em;
 }
 .infobox:focus {
 		outline: 0;
@@ -313,6 +318,8 @@ h1{
 		color: #3C5460;
 		font-size: 14.5px;
 		font-family: augusta, sans-serif;
+		letter-spacing: 0.05em;
+		line-height: normal;
 }
 .plus {
 		position: absolute;

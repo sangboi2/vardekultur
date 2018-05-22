@@ -8,6 +8,7 @@
 body {
 		width: 100%;
 		margin-top: 130px;
+		font-size: 14.5px;
 }
 		@font-face {
 		font-family: "myFirstFont";
@@ -98,6 +99,10 @@ body {
 }
 /*forside slut*/
 /*events start*/
+h2{
+	color: #3C5460;
+	font-family: augusta, sans-serif;
+}
 h1{
 		color: #fff;
 		font-family: augusta, sans-serif;
@@ -111,8 +116,8 @@ h1{
 		grid-auto-rows:minmax(100px,auto);
 		max-width: 100%;
 		grid-gap: 5px;
-		margin-left: 50px;
-		margin-right: 50px;
+		margin-left: 31px;
+		margin-right: 31px;
 }
 #content> *{
 		padding: 135px;
@@ -122,7 +127,7 @@ h1{
 #content p{
 		color: #fff;
 		font-size: 24px;
-		font-family: augusta, sfffrif;
+		font-family: augusta, sans-serif;
 		font-weight: bold;
 		text-align: center;
 }
@@ -182,6 +187,9 @@ h1{
 		border: none;
 		border-radius: 25px;
 		padding-left: 20px;
+		color: #3C5460;
+		font-size: 14.5px;
+		font-family: augusta, sans-serif;
 }
 .writeinfo:focus {
 		outline: 0;
@@ -193,10 +201,14 @@ h1{
 		flex-direction: row;
 }
 .lillebox {
+		font-size: 14.5px;
 		background: none;
-		margin: auto auto auto 0;
+		margin: 0px 50px 0px 200px;
 		display: block;
-}
+		color: #fff;
+		font-size: 14.4px;
+		font-family: augusta, sans-serif;
+	}
 .sendknap {
 		margin: auto 40px auto auto;
 		background: #3C5460;
@@ -205,6 +217,9 @@ h1{
 		width: 15%;
 		height: 40px;
 		cursor: pointer;
+		color: #fff;
+		font-size: 14.5px;
+		font-family: augusta, sans-serif;
 }
 .sendknap:focus {
 		outline: 0;
@@ -272,6 +287,8 @@ h1{
 		margin: 30px auto;
 }
 .infobox {
+		font-size: 14.5px;
+		color: #3C5460;
 		text-align: left;
 		display: block;
 		width: 60%;
@@ -281,6 +298,7 @@ h1{
 		background: none;
 		cursor: pointer;
 		border-top: 1px solid #000000;
+		font-family: augusta, sans-serif;
 }
 .infobox:focus {
 		outline: 0;
@@ -289,8 +307,11 @@ h1{
 		display: none;
 		text-align: left;
 		width: 60%;
-		padding: 35px;
-		margin: auto;
+		padding: 0px 10px 50px 0px;
+		margin-left: 325px;
+		color: #3C5460;
+		font-size: 14.5px;
+		font-family: augusta, sans-serif;
 }
 .plus {
 		position: absolute;
@@ -309,14 +330,17 @@ footer {
 		justify-content: flex-end;
 		height: 100px;
 }
-footer p {
+/* hvad er det til?*/
+/*footer p {
 		padding-top: 1%;
 		color: #fff;
-		font-size: 10px;
+		font-size: 14.5px;
 		display: block;
 		margin: 0 auto 0 5px;
-}
+}*/
 .adresse {
+		font-size: 14.5px;
+		font-family: august, sans-serif;
 		display:flex ;
 		flex-direction: column;
 		text-align: left;

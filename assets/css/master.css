@@ -330,14 +330,15 @@ footer {
 		justify-content: flex-end;
 		height: 100px;
 }
-/* hvad er det til?*/
-/*footer p {
-		padding-top: 1%;
+/* copy rights*/
+footer p {
+		padding-top: 5%;
 		color: #fff;
 		font-size: 14.5px;
 		display: block;
 		margin: 0 auto 0 5px;
-}*/
+		text-align: center;
+}
 .adresse {
 		font-size: 14.5px;
 		font-family: august, sans-serif;
@@ -345,6 +346,9 @@ footer {
 		flex-direction: column;
 		text-align: left;
 		margin: 0 auto 0 25px;
+}
+footer a{
+	padding-top: 2%;
 }
 .spanfooter {
 		color: #ffffff;

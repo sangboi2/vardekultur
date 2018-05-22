@@ -213,6 +213,7 @@ h1{
 /*om festivallen*/
 #om-festivallen {
 		text-align: center;
+		overflow: hidden;
 }
 .om-festivallen {
 		max-width: 100%;

@@ -329,7 +329,7 @@ h1{
 		font-family: augusta, sans-serif;
 		font-weight: bold;
 		letter-spacing: 0.05em;
-		line-height: normal;
+		line-height: 2em;
 }
 .plus {
 		position: absolute;

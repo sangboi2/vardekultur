@@ -182,7 +182,7 @@ h1{
 .writeinfo {
 		display: block;
 		margin: 50px 25px 50px 0;
-		width: 40%;
+		width: 46%;
 		height: 40px;
 		border: none;
 		border-radius: 25px;
@@ -204,10 +204,9 @@ h1{
 .lillebox {
 		font-size: 14.5px;
 		background: none;
-		margin: 0px 50px 0px 190px;
+		margin: 12px 50px 0px 190px;
 		display: block;
 		color: #fff;
-		font-size: 14.4px;
 		font-family: augusta, sans-serif;
 		text-align: center;
 	}

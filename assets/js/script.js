@@ -65,6 +65,23 @@ function carousel() {
 
 /*-------- slider- slut --------*/
 
+/* Deltag window starts here*/
+
+var deltagModal = document.getElementById("hidden_modal");
+
+var clickShow = document.getElementById("btn_showmodal");
+
+clickShow.onclick = function() {
+  deltagModal.style.display = "block";
+}
+
+window.onclick = function(event) {
+  if (event.target == deltagModal) {
+    deltagModal.style.display = "none";
+  }
+}
+/* Deltag slut*/
+
 /* Godt at vide start*/
 function showInfo1() {
   var x = document.getElementById("info1");

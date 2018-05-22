@@ -9,6 +9,7 @@ body {
 		width: 100%;
 		margin-top: 130px;
 		font-size: 14.5px;
+		font-weight: bold;
 		letter-spacing: 0.05em;
 		line-height: normal;
 }
@@ -26,6 +27,7 @@ body {
 		color: #AC683A;
 		font-size: 3em;
 		margin: 80px 0px 50px 0px;
+		font-weight: bold;
 }
 /* basic styling slut*/
 /* navigation*/
@@ -52,6 +54,7 @@ body {
 		text-decoration: none;
 		font-family: 'augusta', sans-serif;
 		font-size: 30px;
+		font-weight: bold;
 }
 .nav-logo {
 		position: absolute;
@@ -85,11 +88,13 @@ body {
 		font-family: 'augusta', sans-serif;
 		color: #AC683A;
 		font-size: 5em;
+		font-weight: bold;
 }
 .intro-tekst p {
 		font-family: 'Raleway', sans-serif;;
 		color: #AC683A;
 		font-size: 1.4em;
+		font-weight: bold;
 }
 #forside-slider {
 		margin-top: 40px;
@@ -101,9 +106,13 @@ body {
 }
 /*forside slut*/
 /*events start*/
+
 h2{
 	color: #3C5460;
 	font-family: augusta, sans-serif;
+	font-size: 14.5px;
+	padding-left: 225px;
+	font-weight: bold;
 }
 h1{
 		color: #fff;
@@ -192,6 +201,7 @@ h1{
 		color: #3C5460;
 		font-size: 14.5px;
 		font-family: augusta, sans-serif;
+		font-weight: bold;
 }
 .writeinfo:focus {
 		outline: 0;
@@ -211,6 +221,7 @@ h1{
 		color: #fff;
 		font-family: augusta, sans-serif;
 		text-align: center;
+		font-weight: bold;
 	}
 .sendknap {
 		margin: auto 40px auto auto;
@@ -222,6 +233,7 @@ h1{
 		cursor: pointer;
 		color: #fff;
 		font-size: 14.5px;
+		font-weight: bold;
 		font-family: augusta, sans-serif;
 		letter-spacing: 0.05em;
 		line-height: normal;
@@ -294,6 +306,7 @@ h1{
 .infobox {
 		font-size: 14.5px;
 		color: #3C5460;
+		font-weight: bold;
 		text-align: left;
 		display: block;
 		width: 60%;
@@ -318,6 +331,7 @@ h1{
 		color: #3C5460;
 		font-size: 14.5px;
 		font-family: augusta, sans-serif;
+		font-weight: bold;
 		letter-spacing: 0.05em;
 		line-height: normal;
 }
@@ -343,6 +357,7 @@ footer p {
 		padding-top: 5%;
 		color: #fff;
 		font-size: 14.5px;
+		font-weight: bold;
 		display: block;
 		margin: 0 auto 0 5px;
 		text-align: center;
@@ -350,6 +365,7 @@ footer p {
 .adresse {
 		font-size: 14.5px;
 		font-family: august, sans-serif;
+		font-weight: bold;
 		display:flex ;
 		flex-direction: column;
 		text-align: left;

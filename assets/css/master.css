@@ -350,7 +350,7 @@ footer {
 }
 /* copy rights*/
 footer p {
-		padding-top: 0%;
+		padding-top: 7%;
 		color: #fff;
 		font-size: 14.5px;
 		font-weight: bold;
@@ -369,10 +369,18 @@ footer p {
 		margin: 0 auto 0 25px;
 }
 footer a{
-	padding-top: 0%;
+	padding-top: 4%;
+}
+.contact{
+		font-size: 17px;
+		text-align: left;
+		font-weight: bold;
+		color: #fff;
+		padding: 0px 0px 10px 0px;
 }
 .spanfooter {
 		color: #ffffff;
+}
 footer img {
 		display: block;
 		height: 40px;

@@ -9,7 +9,6 @@ body {
 		width: 100%;
 		margin-top: 130px;
 		font-size: 14.5px;
-		font-weight: bold;
 		letter-spacing: 0.05em;
 		line-height: normal;
 }
@@ -30,6 +29,7 @@ body {
 		font-weight: bold;
 }
 /* basic styling slut*/
+
 /* navigation*/
 #site-nav {
 		top: 0;
@@ -74,16 +74,12 @@ body {
 		padding: 0px 5px 0px 7px;
 }
 /* navigation - slut*/
-.sprog img {
-		padding: 0px 5px 0px 7px;
-}
-/* navigation - slut*/
+
 /* forside - start*/
 #forside {
 		text-align: center;
 }
-/*.intro-tekst {
-}?*/
+
 .intro-tekst h2 {
 		font-family: 'augusta', sans-serif;
 		color: #AC683A;
@@ -97,13 +93,14 @@ body {
 }
 #forside-slider {
 		margin-top: 40px;
-		max-width: 100%;
+		width: 100%;
 }
 .mySlides {
-		display:none;
-		max-width: 100%;
+		display: none;
+		width: 100%;
 }
 /*forside slut*/
+
 /*events start*/
 
 h2{

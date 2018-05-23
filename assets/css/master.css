@@ -96,12 +96,12 @@ body {
 		font-size: 1.4em;
 		font-weight: bold;
 }
-#forside-slider {
-		margin-top: 40px;
-		max-width: 100%;
-}
 .mySlides {
 		display:none;
+		max-width: 100%;
+}
+#forside-slider {
+		margin-top: 40px;
 		max-width: 100%;
 }
 /*forside slut*/

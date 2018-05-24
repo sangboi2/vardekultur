@@ -24,9 +24,10 @@ body {
 		font-family: "myFirstFont", sans-serif;
 		text-align: center;
 		color: #AC683A;
-		font-size: 3em;
+		font-size: 4em;
 		margin: 80px 0px 50px 0px;
 		font-weight: bold;
+		letter-spacing: 0.05em;
 }
 /* basic styling slut*/
 
@@ -55,6 +56,7 @@ body {
 		font-family: 'augusta', sans-serif;
 		font-size: 30px;
 		font-weight: bold;
+		letter-spacing: 0.05em;
 }
 .nav-logo {
 		position: absolute;
@@ -99,6 +101,10 @@ body {
 		display: none;
 		width: 100%;
 }
+#forside-slider {
+		margin-top: 40px;
+		max-width: 100%;
+}
 /*forside slut*/
 
 /*events start*/
@@ -117,6 +123,8 @@ h1{
 		font-weight: bold;
 		padding-top: 22px;
 		font-size: 1.9em;
+		font-size:3vw;
+		letter-spacing: 0.05em;
 }
 #content{
 		display: grid;
@@ -126,6 +134,7 @@ h1{
 		grid-gap: 5px;
 		margin-left: 31px;
 		margin-right: 31px;
+		margin-bottom: 0px;
 }
 #content> *{
 		padding: 135px;
@@ -135,10 +144,11 @@ h1{
 
 #content h2{
 		color: #fff;
-		font-size: 24px;
-		font-family: augusta, sans-serif;
+		font-size: 30px;
+		font-family: helvetica, sans-serif;
 		font-weight: bold;
 		text-align: center;
+		font-size:2vw;
 }
 .box1{
 		grid-column: 1/5;
@@ -284,8 +294,8 @@ h1{
 		background-color: #AC683A;
 		height: 250px;
 		padding: 0 50px;
-		margin-top: 150px;
-		margin-bottom: 150px;
+		margin-top: 0px;
+		margin-bottom: 0px;
 		max-width: 100%;
 }
 .deltagbox {
@@ -294,7 +304,7 @@ h1{
 }
 .writeinfo {
 		display: block;
-		margin: 50px 30px 50px 0px;
+		margin: 40px 30px 35px 15px;
 		width: 46%;
 		height: 40px;
 		border: none;
@@ -304,6 +314,8 @@ h1{
 		font-size: 14.5px;
 		font-family: augusta, sans-serif;
 		font-weight: bold;
+		font-size:2vw;
+		letter-spacing: 0.05em;
 }
 .writeinfo:focus {
 		outline: 0;
@@ -318,15 +330,16 @@ h1{
 .lillebox {
 		font-size: 14.5px;
 		background: none;
-		margin: 12px 50px 0px 190px;
+		margin: 0px 50px 0px 190px;
 		display: block;
 		color: #fff;
-		font-family: augusta, sans-serif;
+		font-family:helvetica, sans-serif;
 		text-align: center;
 		font-weight: bold;
+		letter-spacing: 0.05em;
 	}
 .sendknap {
-		margin: auto 40px auto auto;
+		margin: 0px 34px auto auto;
 		background: #3C5460;
 		border: none;
 		border-radius: 25px;
@@ -339,6 +352,7 @@ h1{
 		font-family: augusta, sans-serif;
 		letter-spacing: 0.05em;
 		line-height: normal;
+		font-size:2vw;
 }
 .sendknap:focus {
 		outline: 0;
@@ -369,6 +383,8 @@ h1{
 		overflow: hidden;
 		max-width: 100%;
 		height: 500px;
+		margin-top: 0px;
+		margin-bottom: 0px;
 }
 .om-festivallen-tekst {
 		display: block;
@@ -384,14 +400,14 @@ h1{
 }
 #spanbreakindhold p{
 		color: #3C5460;
-		font-family: augusta, sans-serif;
+		font-family: helvetica, sans-serif;
 		font-size: 14.5px;
 		font-weight: bold;
-		letter-spacing: 0.01em;
+		letter-spacing: 0.05em;
 		text-align: left;
 		margin-left: 218px;
 		line-height: 3em;
-		padding: 5px
+		padding: 5px;
 }
 /*om festivallen slut*/
 /* godt at vide - start*/
@@ -413,7 +429,7 @@ h1{
 		background: none;
 		cursor: pointer;
 		border-top: 1px solid #000000;
-		font-family: augusta, sans-serif;
+		font-family:helvetica, sans-serif;
 		letter-spacing: 0.05em;
 }
 .infobox:focus {
@@ -427,7 +443,7 @@ h1{
 		margin-left: 325px;
 		color: #3C5460;
 		font-size: 14.5px;
-		font-family: augusta, sans-serif;
+		font-family: helvetica,sans-serif;
 		font-weight: bold;
 		letter-spacing: 0.05em;
 		line-height: 2em;
@@ -451,35 +467,45 @@ footer {
 }
 /* copy rights*/
 footer p {
-		padding-top: 7%;
+		padding-top: 4%; /* copyrights position*/
 		color: #fff;
 		font-size: 14.5px;
 		font-weight: bold;
-		margin: 0 360px 0 5px;
+		font-family:helvetica,sans-serif;
+		margin: 0 357px 0 5px;
 		text-align: center;
+		letter-spacing: 0.05em;
 }
 .adresse {
 		font-size: 14.5px;
-		font-family: august, sans-serif;
+		font-family:helvetica, sans-serif;
 		font-weight: bold;
+		letter-spacing: 0.05em;
 		line-height: 1.2em;
 		display:flex;
 		flex-direction: column;
 		text-align: left;
 		margin: 0 auto 0 25px;
+
 }
 footer a{
-	padding-top: 4%;
+	padding-top: 2%; /* social media iconer position*/
 }
 .contact{
-		font-size: 17px;
+		font-family:helvetica,sans-serif;
+		font-size: 18px;
 		text-align: left;
 		font-weight: bold;
+		letter-spacing: 0.05em;
 		color: #fff;
-		padding: 0px 0px 10px 0px;
+		padding-bottom: 10px;
 }
 .spanfooter {
-		color: #ffffff;
+		color: #fff;
+		letter-spacing: 0.05em;
+		font-size: 14.5px;
+		font-weight: bold;
+		font-family: helvetica,sans-serif;
 }
 footer img {
 		display: block;
@@ -493,4 +519,27 @@ footer img {
 		height: 400px;
 		flex: 1;
 		order: 2;
+}
+
+@media screen and (max-width: 600px) {
+  #site-nav a:not(:first-child) {
+    display: none;
+}
+  .nav-log, .sprog a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .site-nav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+  .site-nav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
 }

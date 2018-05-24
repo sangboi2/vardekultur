@@ -8,7 +8,7 @@
 body {
 		width: 100%;
 		margin-top: 130px;
-		font-size: 20px;
+		font-size: 14.5px;
 		font-weight: bold;
 		letter-spacing: 0.05em;
 		line-height: normal;
@@ -203,7 +203,7 @@ h1{
 		border-radius: 25px;
 		padding-left: 20px;
 		color: #3C5460;
-		font-size: 20px;
+		font-size: 14.5px;
 		font-family: augusta, sans-serif;
 		font-weight: bold;
 		font-size:2vw;
@@ -219,7 +219,7 @@ h1{
 		flex-direction: row;
 }
 .lillebox {
-		font-size: 20px;
+		font-size: 14.5px;
 		background: none;
 		margin: 0px 50px 0px 190px;
 		display: block;
@@ -237,7 +237,7 @@ h1{
 		height: 40px;
 		cursor: pointer;
 		color: #fff;
-		font-size: 20px;
+		font-size: 14.5px;
 		font-weight: bold;
 		font-family: augusta, sans-serif;
 		letter-spacing: 0.05em;
@@ -291,7 +291,7 @@ h1{
 #spanbreakindhold p{
 		color: #3C5460;
 		font-family: augusta, sans-serif;
-		font-size: 20px;
+		font-size: 14.5px;
 		font-weight: bold;
 		letter-spacing: 0.01em;
 		text-align: left;
@@ -307,7 +307,7 @@ h1{
 		margin: 30px auto;
 }
 .infobox {
-		font-size: 20px;
+		font-size: 14.5px;
 		color: #3C5460;
 		font-weight: bold;
 		text-align: left;
@@ -332,7 +332,7 @@ h1{
 		padding: 0px 10px 50px 0px;
 		margin-left: 325px;
 		color: #3C5460;
-		font-size: 20px;
+		font-size: 14.5px;
 		font-family: augusta, sans-serif;
 		font-weight: bold;
 		letter-spacing: 0.05em;
@@ -366,7 +366,7 @@ footer p {
 		text-align: center;
 }
 .adresse {
-		font-size: 16px;
+		font-size: 14.5px;
 		font-family: augusta, sans-serif;
 		font-weight: bold;
 		line-height: 1.2em;

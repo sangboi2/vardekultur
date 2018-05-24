@@ -25,7 +25,7 @@ body {
 		font-family: "myFirstFont", sans-serif;
 		text-align: center;
 		color: #AC683A;
-		font-size: 3em;
+		font-size: 4em;
 		margin: 80px 0px 50px 0px;
 		font-weight: bold;
 }
@@ -224,7 +224,7 @@ h1{
 		margin: 0px 50px 0px 190px;
 		display: block;
 		color: #fff;
-		font-family: augusta, sans-serif;
+		font-family: helvetica, sans-serif;
 		text-align: center;
 		font-weight: bold;
 	}
@@ -290,7 +290,7 @@ h1{
 }
 #spanbreakindhold p{
 		color: #3C5460;
-		font-family: augusta, sans-serif;
+		font-family: helvetica, sans-serif;
 		font-size: 14.5px;
 		font-weight: bold;
 		letter-spacing: 0.01em;
@@ -319,7 +319,7 @@ h1{
 		background: none;
 		cursor: pointer;
 		border-top: 1px solid #000000;
-		font-family: augusta, sans-serif;
+		font-family: helvetica, sans-serif;
 		letter-spacing: 0.05em;
 }
 .infobox:focus {
@@ -367,7 +367,7 @@ footer p {
 }
 .adresse {
 		font-size: 14.5px;
-		font-family: augusta, sans-serif;
+		font-family: sans-serif;
 		font-weight: bold;
 		line-height: 1.2em;
 		display:flex;
@@ -380,12 +380,12 @@ footer a{
 	padding-top: 4%;
 }
 .contact{
-		font-family: Augusta,sans-serif;
+		font-family: helvetica,sans-serif;
 		font-size: 18px;
 		text-align: left;
 		font-weight: bold;
 		color: #fff;
-		padding: 0px;
+		padding-bottom: 10px;
 }
 .spanfooter {
 		color: #ffffff;

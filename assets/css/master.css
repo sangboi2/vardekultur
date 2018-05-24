@@ -132,7 +132,8 @@ h1{
 		padding: 100px;
 		background-size: cover;
 }
-#content p{
+
+#content h2{
 		color: #fff;
 		font-size: 24px;
 		font-family: augusta, sans-serif;
@@ -190,16 +191,20 @@ h1{
     overflow: auto; /* Enable scroll if needed */
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+
 }
 
 /* Modal Content */
 .modal-content {
     position: relative;
     background-color: #fefefe;
+		vertical-align: center;
     margin: auto;
     padding: 0;
+		-webkit-transform: translate(-102px,-70px); /* Safari */
+	  transform: translate(-102px,-70px); /* Standard syntax */
     border: 1px solid #888;
-    width: 80%;
+    width: 70%;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
     animation-name: animatetop;
     animation-duration: 0.4s
@@ -236,8 +241,8 @@ h1{
     cursor: pointer;
 }
 
-.modal-image {
-	width: 80%;
+.modal-image img {
+	width: 100%;
 }
 
 /* Modal Header */
@@ -248,7 +253,15 @@ h1{
 }
 
 /* Modal Body */
-.modal-body {padding: 2px 16px;}
+.modal-body {
+	padding: 2px 16px;
+	color: #AC683A;
+}
+
+.modal-info p {
+	color: #AC683A;
+	font-family: 'Raleway', sans-serif;
+}
 
 /* Modal Footer */
 .modal-footer {
@@ -256,8 +269,6 @@ h1{
     background-color: #3C5460;
     color: white;
 }
-
-
 /*MODAL SLUT*/
 
 /*deltag start*/

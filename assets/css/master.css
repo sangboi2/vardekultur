@@ -121,7 +121,7 @@ h1{
 		font-weight: bold;
 		padding-top: 22px;
 		font-size: 1.9em;
-		font-size:10vw;
+		font-size:3vw;
 }
 #content{
 		display: grid;
@@ -144,7 +144,7 @@ h1{
 		font-family: augusta, sans-serif;
 		font-weight: bold;
 		text-align: center;
-		font-size:5vw;
+		font-size:2vw;
 }
 .box1{
 		grid-column: 1/5;
@@ -206,7 +206,7 @@ h1{
 		font-size: 20px;
 		font-family: augusta, sans-serif;
 		font-weight: bold;
-		font-size:5vw;
+		font-size:2vw;
 }
 .writeinfo:focus {
 		outline: 0;
@@ -227,7 +227,6 @@ h1{
 		font-family: augusta, sans-serif;
 		text-align: center;
 		font-weight: bold;
-		font-size:5vw;
 	}
 .sendknap {
 		margin: 0px 34px auto auto;
@@ -243,7 +242,7 @@ h1{
 		font-family: augusta, sans-serif;
 		letter-spacing: 0.05em;
 		line-height: normal;
-		font-size:5vw;
+		font-size:2vw;
 }
 .sendknap:focus {
 		outline: 0;
@@ -299,7 +298,6 @@ h1{
 		margin-left: 218px;
 		line-height: 3em;
 		padding: 5px;
-		font-size:5vw;
 }
 /*om festivallen slut*/
 /* godt at vide - start*/
@@ -323,7 +321,6 @@ h1{
 		border-top: 1px solid #000000;
 		font-family: augusta, sans-serif;
 		letter-spacing: 0.05em;
-		font-size:5vw;
 }
 .infobox:focus {
 		outline: 0;
@@ -340,7 +337,6 @@ h1{
 		font-weight: bold;
 		letter-spacing: 0.05em;
 		line-height: 2em;
-		font-size:5vw;
 }
 .plus {
 		position: absolute;
@@ -368,7 +364,7 @@ footer p {
 		font-family: augusta,sans-serif;
 		margin: 0 360px 0 5px;
 		text-align: center;
-		font-size:5vw;
+		font-size:1vw;
 }
 .adresse {
 		font-size: 16px;
@@ -379,7 +375,7 @@ footer p {
 		flex-direction: column;
 		text-align: left;
 		margin: 0 auto 0 25px;
-		font-size:5vw;
+
 }
 footer a{
 	padding-top: 4%;
@@ -391,7 +387,6 @@ footer a{
 		font-weight: bold;
 		color: #fff;
 		padding: 0px;
-		font-size:5vw;
 }
 .spanfooter {
 		color: #ffffff;

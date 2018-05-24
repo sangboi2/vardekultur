@@ -258,11 +258,19 @@ h1{
 	color: #AC683A;
 }
 
-.modal-info p {
-	color: #AC683A;
-	font-family: 'Raleway', sans-serif;
+#modal-indhold {
+	display: flex;
 }
 
+.modal-info{
+	color: #AC683A;
+	font-family: 'Raleway', sans-serif;
+	margin: 20px 40px 30px 20px;
+}
+
+.map {
+	margin: 20px 40px 30px 20px;
+}
 /* Modal Footer */
 .modal-footer {
     padding: 2px 16px;

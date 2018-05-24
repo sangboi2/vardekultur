@@ -357,14 +357,14 @@ footer {
 }
 /* copy rights*/
 footer p {
-		padding-top: 7%;
+		padding-top: 6%;
 		color: #fff;
 		font-size: 16px;
 		font-weight: bold;
 		font-family: augusta,sans-serif;
-		margin: 0 360px 0 5px;
+		margin: 0 320px 0 5px;
 		text-align: center;
-		font-size:1vw;
+		font-size:2vw;
 }
 .adresse {
 		font-size: 16px;

@@ -254,11 +254,11 @@ h1{
 }
 /*deltag slut*/
 /*om festivallen*/
-#om-festivallen {
+#om-festivalen {
 		text-align: center;
 		overflow: hidden;
 }
-.om-festivallen {
+.om-festivalen {
 		max-width: 100%;
 		display: block;
 }
@@ -286,7 +286,7 @@ h1{
 		order: 1;
 		flex: 2;
 }
-.om-festivallen-logo {
+.om-festivalen-logo {
 		display: block;
 		order: 2;
 		flex: 1;
@@ -304,7 +304,7 @@ h1{
 		line-height: 3em;
 		padding: 5px;
 }
-/*om festivallen slut*/
+/*om festivalen slut*/
 /* godt at vide - start*/
 #aboutwrapper {
 		display: flex;

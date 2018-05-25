@@ -17,7 +17,7 @@ body {
 		font-family: "myFirstFont";
 		src: local("Augusta"), url("../fonts/Augusta.tff") format("truetype");
 }
-#forside, #events, #om-festivallen {
+#forside, #events, #om-festivalen {
 		height: auto;
 		width: 100%;
 }

@@ -65,6 +65,20 @@ function carousel() {
 
 /*-------- slider- slut --------*/
 
+/*FORBEDRINGER TIL DELTAG STARTER HER!!!*/
+
+var delModal = document.getElementById("modaldeltag");
+
+var pressShow = document.getElementById("visforbedring");
+
+
+pressShow.onclick = function() {
+  delModal.style.display = "block";
+  console.log("this works");
+}
+
+/*FORBEDRINGER TIL DELTAG SLUTER HER!!!*/
+
 /* Godt at vide start*/
 function showInfo1() {
   var x = document.getElementById("info1");

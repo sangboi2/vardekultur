@@ -109,13 +109,6 @@ body {
 
 /*events start*/
 
-/*h2{
-	color: #3C5460;
-	font-family: augusta, sans-serif;
-	font-size: 14.5px;
-	padding-left: 225px;
-	font-weight: bold;
-}*/
 h1{
 		color: #fff;
 		font-family: augusta, sans-serif;
@@ -131,12 +124,12 @@ h1{
 		grid-template-columns:repeat(12,1fr);
 		grid-auto-rows:minmax(100px,auto);
 		max-width: 100%;
-		grid-gap: 5px;
+		grid-gap: 7px;
 		margin-left: 31px;
 		margin-right: 31px;
 		margin-bottom: 0px;
 }
-#content> *{
+#content > *{
 		padding: 135px;
 		padding: 100px;
 		background-size: cover;
@@ -150,39 +143,47 @@ h1{
 		text-align: center;
 		font-size:2vw;
 }
+
+.box1, .box2, .box3, .box4, .box5, .box6, .box7 {
+	display: flex;
+ text-align: center;
+ justify-content: center;
+
+}
+
 .box1{
 		grid-column: 1/5;
-		background-image: url("../images/box1.jpg");
+		background-image: url("../images/box1-overlay.jpg");
 }
 .box2{
 		grid-column: 5/13;
 		grid-row: 1/1;
-		background-image: url("../images/box2.jpg");
+		background-image: url("../images/box2-overlay.jpg");
 }
 .box3{
 		grid-column: 1/5;
 		grid-row: 2/6;
-		background-image: url("../images/box3.jpg");
+		background-image: url("../images/box3-overlay.jpg");
 }
 .box4{
 		grid-column: 5/9;
 		grid-row: 2/4;
-		background-image: url("../images/box4.jpg");
+		background-image: url("../images/box4-overlay.jpg");
 }
 .box5{
 		grid-column: 9/13;
 		grid-row: 2/4;
-		background-image: url("../images/box5.jpg");
+		background-image: url("../images/box5-overlay.jpg");
 }
 .box6{
 		grid-column: 5/9;
 		grid-row: 4/6;
-		background-image: url("../images/box6.jpg");
+		background-image: url("../images/box6-overlay.jpg");
 }
 .box7{
 		grid-column: 9/13;
 		grid-row: 4/6;
-		background-image: url("../images/box7.jpg");
+		background-image: url("../images/box7-overlay.jpg");
 }
 /*events slut*/
 
@@ -226,15 +227,17 @@ h1{
     to {top: 0; opacity: 1}
 }
 
-#myBtn {
+#myBtn, #myBtn2, #myBtn3, #myBtn4, #myBtn5, #myBtn6, #myBtn7  {
 	font-family: "myFirstFont", sans-serif;
 	color: white;
 	border: none;
 	background-color: transparent;
 	font-weight: bold;
 	text-align: center;
-	font-size: 24px;
+	font-size: 28px;
 	cursor: pointer;
+	align-self: center;
+	align-content: center;
 }
 
 /* The Close Button */
@@ -246,9 +249,9 @@ h1{
 
 .close:hover,
 .close:focus {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .modal-image img {
@@ -268,7 +271,8 @@ h1{
 	color: #AC683A;
 }
 
-#modal-indhold {
+#modal-indhold, #modal-indhold2, #modal-indhold3, #modal-indhold4, #modal-indhold5
+, #modal-indhold6, #modal-indhold7 {
 	display: flex;
 }
 
@@ -428,7 +432,7 @@ h1{
 		border: none;
 		background: none;
 		cursor: pointer;
-		border-top: 1px solid #000000;
+		border-top: 2px solid #3C5460;
 		font-family:helvetica, sans-serif;
 		letter-spacing: 0.05em;
 }

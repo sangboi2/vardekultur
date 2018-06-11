@@ -17,7 +17,7 @@ body {
 		font-family: "myFirstFont";
 		src: local("Augusta"), url("../fonts/Augusta.tff") format("truetype");
 }
-#forside, #events, #om-festivalen{
+#forside, #events,#frivillig, #om-festivalen{
 		height: auto;
 		width: 100%;
 }
@@ -128,6 +128,21 @@ h1{
 		font-size:3vw;
 		letter-spacing: 0.05em;
 		font-size:3vw;
+}
+.program{
+	font-size: 20px;
+	padding-top: 40px;
+	text-align: center;
+}
+.program a{
+	color: #3C5460;
+	text-decoration: none;
+}
+.program-pdf{
+	max-width:100px;
+	max-height: 100px;
+	margin-left: 670px;
+	margin-top: 10px;
 }
 #content{
 		display: grid;

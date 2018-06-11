@@ -17,7 +17,7 @@ body {
 		font-family: "myFirstFont";
 		src: local("Augusta"), url("../fonts/Augusta.tff") format("truetype");
 }
-#forside, #events, #om-festivalen {
+#forside, #events, #om-festivalen{
 		height: auto;
 		width: 100%;
 }
@@ -57,6 +57,7 @@ body {
 		font-size: 30px;
 		font-weight: bold;
 		letter-spacing: 0.05em;
+		font-size:2vw;
 }
 .nav-logo {
 		position: absolute;
@@ -91,6 +92,7 @@ body {
 		color: #AC683A;
 		font-size: 5em;
 		font-weight: bold;
+		font-size:6vw;
 }
 .intro-tekst p {
 		font-family: 'Raleway', sans-serif;;
@@ -118,13 +120,14 @@ body {
 }*/
 h1{
 		color: #fff;
-		font-family: augusta, sans-serif;
+		font-family: 'augusta', sans-serif;
 		text-align: center;
 		font-weight: bold;
 		padding-top: 22px;
 		font-size: 1.9em;
 		font-size:3vw;
 		letter-spacing: 0.05em;
+		font-size:3vw;
 }
 #content{
 		display: grid;
@@ -144,10 +147,14 @@ h1{
 #content p{
 		color: #fff;
 		font-size: 30px;
-		font-family: helvetica, sans-serif;
+		font-family: 'augusta', helvetica, sans-serif;
 		font-weight: bold;
 		text-align: center;
 		font-size:2vw;
+
+}
+#content a{
+		text-decoration: none;
 }
 .box1{
 		grid-column: 1/5;
@@ -207,7 +214,7 @@ h1{
 		padding-left: 20px;
 		color: #3C5460;
 		font-size: 14.5px;
-		font-family: augusta, sans-serif;
+		font-family: 'augusta', sans-serif;
 		font-weight: bold;
 		font-size:2vw;
 		letter-spacing: 0.05em;
@@ -228,10 +235,11 @@ h1{
 		margin: 0px 50px 0px 190px;
 		display: block;
 		color: #fff;
-		font-family:helvetica, sans-serif;
+		font-family:'augusta',helvetica, sans-serif;
 		text-align: center;
 		font-weight: bold;
 		letter-spacing: 0.05em;
+		font-size:1.3vw;
 	}
 .sendknap {
 		margin: 0px 34px auto auto;
@@ -244,7 +252,7 @@ h1{
 		color: #fff;
 		font-size: 14.5px;
 		font-weight: bold;
-		font-family: augusta, sans-serif;
+		font-family: 'augusta', sans-serif;
 		letter-spacing: 0.05em;
 		line-height: normal;
 		font-size:2vw;
@@ -303,6 +311,7 @@ h1{
 		margin-left: 218px;
 		line-height: 3em;
 		padding: 5px;
+		font-size:1vw;
 }
 /*om festivalen slut*/
 /* godt at vide - start*/
@@ -324,8 +333,9 @@ h1{
 		background: none;
 		cursor: pointer;
 		border-top: 1px solid #000000;
-		font-family:helvetica, sans-serif;
+		font-family: helvetica, sans-serif;
 		letter-spacing: 0.05em;
+		font-size:1vw;
 }
 .infobox:focus {
 		outline: 0;
@@ -342,6 +352,7 @@ h1{
 		font-weight: bold;
 		letter-spacing: 0.05em;
 		line-height: 2em;
+		font-size:1vw;
 }
 .plus {
 		position: absolute;
@@ -366,14 +377,15 @@ footer p {
 		color: #fff;
 		font-size: 14.5px;
 		font-weight: bold;
-		font-family:helvetica,sans-serif;
+		font-family: helvetica,sans-serif;
 		margin: 0 357px 0 5px;
 		text-align: center;
 		letter-spacing: 0.05em;
+		font-size:1vw;
 }
 .adresse {
 		font-size: 14.5px;
-		font-family:helvetica, sans-serif;
+		font-family: helvetica, sans-serif;
 		font-weight: bold;
 		letter-spacing: 0.05em;
 		line-height: 1.2em;
@@ -381,19 +393,20 @@ footer p {
 		flex-direction: column;
 		text-align: left;
 		margin: 0 auto 0 25px;
-
+		font-size:1vw;
 }
 footer a{
 	padding-top: 2%; /* social media iconer position*/
 }
 .contact{
-		font-family:helvetica,sans-serif;
+		font-family:'augusta',helvetica,sans-serif;
 		font-size: 18px;
 		text-align: left;
 		font-weight: bold;
 		letter-spacing: 0.05em;
 		color: #fff;
 		padding-bottom: 10px;
+		font-size:2vw;
 }
 .spanfooter {
 		color: #fff;
@@ -401,6 +414,7 @@ footer a{
 		font-size: 14.5px;
 		font-weight: bold;
 		font-family: helvetica,sans-serif;
+		font-size:1vw;
 }
 footer img {
 		display: block;

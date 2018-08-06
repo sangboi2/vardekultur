@@ -18,7 +18,7 @@ body {
 }
 
 #events, #om-festivallen, #godt-at-vide {
-    padding: 6% 0% 3% 0%;
+    padding: 3% 0% 1% 0%;
 		height: auto;
 		width: 100%;
 }
@@ -113,8 +113,6 @@ body {
 
 /*events start*/
 
-
-/*Top Container*/
 #top-container{
     box-sizing: border-box;
     width: 100%;
@@ -139,22 +137,7 @@ body {
     justify-content: center;
     box-shadow: var(--shadow);
   }
-.showcase h1{
-    font-weight: bold;
-    font-size: 5rem;
-    margin-bottom: 0;
-    color: var(--light);
-    font-weight: bold;
-  }
-.showcase p{
-    font-weight: bold;
-    font-size: 2rem;
-    margin: 0;
-    padding: 20px;
-    color: var(--sand);
-    font-weight: bold;
-    letter-spacing: 1px;
-  }
+
 /*Top Box*/
 .top-box{
     background: var(--primary);
@@ -164,11 +147,7 @@ body {
     box-shadow: var(--shadow);
     padding: 1.5rem;
   }
-.top-box .price{
-    font-size: 2.5rem;
-    color:var(--light);
-    padding: 15px;
-  }
+
 .top-box-a{
     grid-area:top-box-a;
     background: url("../images/box2-overlay.jpg");
@@ -229,13 +208,6 @@ body {
     justify-content: center;
     box-shadow: var(--shadow);
   }
-.top-box-a ,.top-box-b ,.top-box-c ,.top-box-d ,.top-box-e h4{
-    font-family: "Segoe UI",Arial,sans-serif;
-    font-size: 1.2rem;
-    color: var(--light);
-    font-weight: bold;
-    letter-spacing: 0.05em;
-  }
 
 	/*Media Queries 700*/
 @media(max-width:700px){
@@ -249,13 +221,6 @@ body {
 }
 /*Media Queries 500*/
 @media(max-width:500px){
-
-  .showcase h1{
-    text-align: center;
-  }
-.showcase p{
-    text-align: center;
-  }
   #top-container{
     grid-template-areas:
     'showcase'
@@ -267,63 +232,6 @@ body {
     'top-box-f';
   }
 }
-/*events slut*/
-/*
-#grid-placeholder{
-		display: grid;
-		grid-template-columns:repeat(12,7.9%);
-		grid-auto-rows:minmax(10%,auto);
-		max-width: 100%;
-		grid-gap: 7px;
-		margin: 30px 31px 0px 31px;
-}
-#grid-placeholder > *{
-		padding: 135px;
-}
-
-.box {
-	display: flex;
- 	text-align: center;
- 	justify-content: center;
- 	background-size: cover;
-}
-
-.box1{
-		grid-column: 1/5;
-		background-image: url("../images/box1-overlay.jpg");
-}
-.box2{
-		grid-column: 5/13;
-		grid-row: 1/1;
-		background-image: url("../images/box2-overlay.jpg");
-}
-.box3{
-		grid-column: 1/5;
-		grid-row: 2/6;
-		background-image: url("../images/box3-overlay.jpg");
-}
-.box4{
-		grid-column: 5/9;
-		grid-row: 2/4;
-		background-image: url("../images/box4-overlay.jpg");
-}
-.box5{
-		grid-column: 9/13;
-		grid-row: 2/4;
-		background-image: url("../images/box5-overlay.jpg");
-}
-.box6{
-		grid-column: 5/9;
-		grid-row: 4/6;
-		background-image: url("../images/box6-overlay.jpg");
-}
-.box7{
-		grid-column: 9/13;
-		grid-row: 4/6;
-		background-image: url("../images/box7-overlay.jpg");
-}
-
-*
 /*events slut*/
 
 /*MODAL Start*/
@@ -449,9 +357,8 @@ a:hover {
 #deltag-frivillig {
 		background-color: #AC683A;
 		height: auto;
-		padding: 0% 0% 3% 0%;
-		margin-top: 0px;
-		margin-bottom: 0px;
+		padding: 2% 0% 3% 0%;
+		margin: 0% 0% 0% 0%;
 		max-width: 100%;
 }
 
@@ -533,12 +440,7 @@ a:hover {
 		max-width: 100%;
 		display: block;
 }
-.varde-logo {
-/*height: 100%;*/
-		max-width: 100%;
-		margin-right: 50px;
-		margin-left: 150px;
-}
+
 .tekst-logo {
 		display: flex;
 		flex-direction: row;
@@ -563,6 +465,13 @@ a:hover {
 		flex: 1;
 		margin: 0 0 0 25px;
 		padding: 0;
+}
+
+.varde-logo {
+/*height: 100%;*/
+		max-width: 100%;
+		margin-right: 50px;
+		margin-left: 150px;
 }
 
 @media screen and (min-width: 480px){

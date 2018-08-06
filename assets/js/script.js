@@ -46,6 +46,17 @@ function scrollTo(destination, step)
 
 smoothScroll();
 
+
+/*-------- hamburger menu --------*/
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+
 /*-------- slider --------*/
 
 var myIndex = 0;
@@ -65,84 +76,36 @@ function carousel() {
 
 /*-------- slider- slut --------*/
 
-/* ---  modal 1  --- */
+/* ---  modal  --- */
 
-// Get the modal
-var modal = document.getElementById('myModal');
-
-// Get the button that opens the modal
-var btn = document.getElementById("myBtn");
-
-// When the user clicks the button, open the modal
-btn.onclick = function() {
-    modal.style.display = "block";
-}
-
-// Close the Modal
 function closeModal() {
-  document.getElementById('myModal').style.display = "none";
-}
+    // Find alle modals
+    var modals = document.getElementsByClassName("modal");
 
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
+    // Sæt display til none for alle
+    for(var i = 0; i < modals.length; i++) {
+        modals[i].style.display = "none";
     }
 }
 
-/* ---  modal 2  --- */
+var openModal = function() {
+    // Få værdien af data-target fra den knap der blev trykket på (this)
+    var modalID = this.getAttribute("data-target");
 
-// Get the modal
-var modal = document.getElementById('myModal2');
+    // Find modal elementet med tilsvarende værdi
+    var modal = document.querySelectorAll("[data-modal='" + modalID + "']")[0];
 
-// Get the button that opens the modal
-var btn = document.getElementById("myBtn2");
-
-// When the user clicks the button, open the modal
-btn.onclick = function() {
+    // Sæt den specifikke modals display til block
     modal.style.display = "block";
 }
 
-// Close the Modal
-function closeModal() {
-  document.getElementById('myModal2').style.display = "none";
+// Find alle elementer med class "modal-button"
+var buttons = document.getElementsByClassName("modal-button");
+
+// For hver af dem, addEventListener - hvis der klikkes, kører openModal funktionen
+for(var i = 0; i < buttons.length; i++) {
+    buttons[i].addEventListener("click", openModal, false);
 }
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
-}
-
-/* ---  modal 3  --- */
-
-// Get the modal
-var modal = document.getElementById('myModal3');
-
-// Get the button that opens the modal
-var btn = document.getElementById("myBtn3");
-
-// When the user clicks the button, open the modal
-btn.onclick = function() {
-    modal.style.display = "block";
-}
-
-// Close the Modal
-function closeModal() {
-  document.getElementById('myModal3').style.display = "none";
-}
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
-}
-
-
-
-
 /* Modal - slut*/
 
 /* Godt at vide start*/

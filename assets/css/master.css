@@ -54,10 +54,10 @@ body {
 #site-nav li a {
 		display: block;
 		color: #fff;
-		padding: 25px 25px;
+		padding: 20px 20px;
 		text-decoration: none;
 		font-family: 'augusta', sans-serif;
-		font-size: 2vw;
+		font-size: 2em;
 		font-weight: bold;
 		letter-spacing: 0.05em;
 }
@@ -66,18 +66,22 @@ body {
 		top:0;
 		left:0;
 		align-self: center;
-		margin: 0px 10px 20px 30px;
+		margin: 0px 10px 20px 10px;
 		height:auto;
+}
+
+.nav-logo img{
+	max-height:100%;
 }
 .sprog {
 		position: absolute;
 		top:0;
 		left: 0;
 		align-self: center;
-		margin: 0px 10px 20px 160px;
+		margin: 0px 10px 20px 120px;
 }
 .sprog img {
-		padding: 0px 5px 0px 7px;
+		padding: 0px 2px 0px 4px;
 }
 /* navigation - slut*/
 
@@ -209,8 +213,8 @@ body {
     box-shadow: var(--shadow);
   }
 
-	/*Media Queries 700*/
-@media(max-width:700px){
+	/*Media Queries 768*/
+@media(max-width:768px){
   #top-container{
     grid-template-areas:
     'showcase showcase'
@@ -218,6 +222,54 @@ body {
     'top-box-c top-box-d'
     'top-box-e top-box-f';
   }
+
+	.intro-tekst h2 {
+		font-size: 4em;
+	}
+
+.overskrift-center {
+	font-size: 3em;
+}
+
+#spanbreakindhold p {
+	margin: 0 80px 0 0;
+	font-size: 1.3em;
+	font-family: "Raleway", sans-serif;
+	letter-spacing:
+}
+
+#site-nav li a {
+		padding: 11px 11px;
+		font-size: 1.5em;
+}
+
+.plus {
+	font-size: 1.5em;
+}
+
+.infobox {
+	font-size: 0.8em;
+}
+
+#info1, #info2, #info3, #info4, #info5, #info6, #info7, #info8{
+	font-size: 0.8em;
+	line-height: 0.5em;
+}
+
+footer p {
+		font-size: 1em;
+		text-align: center;
+}
+
+.adresse .spanfooter {
+		font-size: 1em;
+}
+
+.adresse .contact {
+		font-size: 1em;
+		font-weight: bold;
+}
+
 }
 /*Media Queries 500*/
 @media(max-width:500px){
@@ -282,7 +334,7 @@ body {
 	background-color: transparent;
 	font-weight: bold;
 	text-align: center;
-	font-size: 35px;
+	font-size: 2em;
 	cursor: pointer;
 	align-self: center;
 	align-content: center;
@@ -459,32 +511,17 @@ a:hover {
 		order: 1;
 		flex: 2;
 }
-.om-festivallen-logo {
-		display: block;
-		order: 2;
-		flex: 1;
-		margin: 0 0 0 25px;
-		padding: 0;
-}
 
-.varde-logo {
-/*height: 100%;*/
-		max-width: 100%;
-		margin-right: 50px;
-		margin-left: 150px;
-}
-
-@media screen and (min-width: 480px){
-#spanbreakindhold p{
+#spanbreakindhold p {
+		font-size: 1.5em;
+		line-height: 1em;
 		color: #3C5460;
 		font-family: 'Raleway', sans-serif;
-		font-size: 1.2vw;
 		letter-spacing: 0.05em;
 		text-align: left;
-		margin-left: 16%;
+		margin-left: 9%;
 		line-height: 3em;
 		padding: 5px;
-	}
 }
 
 @media screen and (max-width: 400px) {
@@ -509,7 +546,7 @@ a:hover {
 		margin: 30px auto;
 }
 .infobox {
-		font-size: 0.9vw;
+		font-size: 1.3em;
 		color: #3C5460;
 		text-align: left;
 		display: block;
@@ -533,7 +570,7 @@ a:hover {
 		padding: 0% 0% 1% 0%;
 		margin: 0% 0% 0% 23%;
 		color: #3C5460;
-		font-size: 0.9vw;
+		font-size: 1.3em;
 		font-family: "Raleway",sans-serif;
 		letter-spacing: 0.05em;
 		line-height: 2em;
@@ -541,7 +578,7 @@ a:hover {
 
 @media screen and (max-width: 400px) {
 .infobox {
-		font-size: 0.9vw;
+		font-size: 1em;
 		color: #3C5460;
 		text-align: left;
 		display: block;
@@ -554,6 +591,7 @@ a:hover {
 		border-top: 1.5px solid #3C5460;
 		font-family: "Raleway", sans-serif;
 		letter-spacing: 0.05em;
+	}
 }
 .infobox:focus {
 		outline: 0;
@@ -565,10 +603,10 @@ a:hover {
 		padding: 0% 0% 1% 0%;
 		margin: 0% 0% 0% 23%;
 		color: #3C5460;
-		font-size: 0.9vw;
+		font-size: 1.2em;
 		font-family: "Raleway",sans-serif;
 		letter-spacing: 0.05em;
-		line-height: 2em;
+		line-height: 1.2em;
 }
 
 .plus {
@@ -576,14 +614,7 @@ a:hover {
 		padding: 0;
 		margin: 0;
 		right: 24%;
-	}
-}
-
-.plus {
-		position: absolute;
-		padding: 0;
-		margin: 0;
-		right: 24%;
+		font-size: 1.3em;
 }
 /* godt at vide - slut*/
 /* footer*/
@@ -614,7 +645,6 @@ footer p {
 		flex-direction: column;
 		text-align: left;
 		margin: 0 auto 0 25px;
-
 }
 footer a{
 	padding-top: 2%; /* social media iconer position*/
